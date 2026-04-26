@@ -454,6 +454,35 @@ def run_once(no_trade: bool = False) -> dict[str, Any]:
     append_jsonl(DECISIONS_LOG, record)
     return record
 
+    summary = (
+        f"📊 BTC Bot\n"
+        f"Decision: {decision}\n"
+        f"Price: {price:.2f}\n"
+        f"Cash: {cash:.2f}\n"
+        f"Qty: {qty}\n"
+        f"Reason: {reason}"
+    )
+
+    send_telegram(summary)
+
+def send_telegram(msg: str):
+    token = os.getenv("TELEGRAM_BOT_TOKEN")
+    chat_id = os.getenv("TELEGRAM_CHAT_ID")
+
+    if not token or not chat_id:
+        return  # skip kalau belum diset
+
+    try:
+        url = f"https://api.telegram.org/bot{token}/sendMessage"
+        payload = urllib.parse.urlencode({
+            "chat_id": chat_id,
+            "text": msg
+        }).encode()
+
+        req = urllib.request.Request(url, data=payload)
+        urllib.request.urlopen(req, timeout=10)
+    except Exception as e:
+        print("Telegram error:", e)
 
 def main() -> int:
     parser = argparse.ArgumentParser()
@@ -484,6 +513,14 @@ def main() -> int:
         run_safe()
         time.sleep(max(10, args.interval))
 
+    except Exception as exc:
+    error_record = {"timestamp": utc_now(), "error": str(exc)}
+    append_jsonl(DECISIONS_LOG, error_record)
+
+    send_telegram(f"❌ ERROR:\n{str(exc)}")
+
+    print(json.dumps(error_record, indent=2, sort_keys=True))
+    return 1
 
 if __name__ == "__main__":
     raise SystemExit(main())
