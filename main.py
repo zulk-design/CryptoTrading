@@ -452,8 +452,8 @@ def run_once(no_trade: bool = False) -> dict[str, Any]:
         "no_trade": no_trade,
     }
     append_jsonl(DECISIONS_LOG, record)
-    return record
 
+    # 🔥 Telegram log
     summary = (
         f"📊 BTC Bot\n"
         f"Decision: {decision}\n"
@@ -464,6 +464,8 @@ def run_once(no_trade: bool = False) -> dict[str, Any]:
     )
 
     send_telegram(summary)
+
+    return record
 
 def send_telegram(msg: str):
     token = os.getenv("TELEGRAM_BOT_TOKEN")
@@ -486,10 +488,10 @@ def send_telegram(msg: str):
 
 def main() -> int:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--once", action="store_true", help="Run one strategy evaluation.")
-    parser.add_argument("--no-trade", action="store_true", help="Evaluate without submitting orders.")
-    parser.add_argument("--loop", action="store_true", help="Run continuously.")
-    parser.add_argument("--interval", type=int, default=60, help="Seconds between runs (loop mode).")
+    parser.add_argument("--once", action="store_true")
+    parser.add_argument("--no-trade", action="store_true")
+    parser.add_argument("--loop", action="store_true")
+    parser.add_argument("--interval", type=int, default=60)
     args = parser.parse_args()
 
     if not (args.once or args.loop):
@@ -499,9 +501,13 @@ def main() -> int:
         try:
             record = run_once(no_trade=args.no_trade)
             print(json.dumps(record, indent=2, sort_keys=True))
+
         except Exception as exc:
             error_record = {"timestamp": utc_now(), "error": str(exc)}
             append_jsonl(DECISIONS_LOG, error_record)
+
+            send_telegram(f"❌ ERROR:\n{str(exc)}")
+
             print(json.dumps(error_record, indent=2, sort_keys=True))
 
     if args.once:
@@ -512,15 +518,6 @@ def main() -> int:
     while True:
         run_safe()
         time.sleep(max(10, args.interval))
-
-    except Exception as exc:
-    error_record = {"timestamp": utc_now(), "error": str(exc)}
-    append_jsonl(DECISIONS_LOG, error_record)
-
-    send_telegram(f"❌ ERROR:\n{str(exc)}")
-
-    print(json.dumps(error_record, indent=2, sort_keys=True))
-    return 1
-
+        
 if __name__ == "__main__":
     raise SystemExit(main())
