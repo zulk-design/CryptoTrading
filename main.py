@@ -459,18 +459,30 @@ def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--once", action="store_true", help="Run one strategy evaluation.")
     parser.add_argument("--no-trade", action="store_true", help="Evaluate without submitting orders.")
+    parser.add_argument("--loop", action="store_true", help="Run continuously.")
+    parser.add_argument("--interval", type=int, default=60, help="Seconds between runs (loop mode).")
     args = parser.parse_args()
-    if not args.once:
-        parser.error("Use --once for scheduled execution.")
-    try:
-        record = run_once(no_trade=args.no_trade)
-    except Exception as exc:
-        error_record = {"timestamp": utc_now(), "error": str(exc)}
-        append_jsonl(DECISIONS_LOG, error_record)
-        print(json.dumps(error_record, indent=2, sort_keys=True))
-        return 1
-    print(json.dumps(record, indent=2, sort_keys=True))
-    return 0
+
+    if not (args.once or args.loop):
+        parser.error("Use --once or --loop")
+
+    def run_safe():
+        try:
+            record = run_once(no_trade=args.no_trade)
+            print(json.dumps(record, indent=2, sort_keys=True))
+        except Exception as exc:
+            error_record = {"timestamp": utc_now(), "error": str(exc)}
+            append_jsonl(DECISIONS_LOG, error_record)
+            print(json.dumps(error_record, indent=2, sort_keys=True))
+
+    if args.once:
+        run_safe()
+        return 0
+
+    # LOOP MODE
+    while True:
+        run_safe()
+        time.sleep(max(10, args.interval))
 
 
 if __name__ == "__main__":
