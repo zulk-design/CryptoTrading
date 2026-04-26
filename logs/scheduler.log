@@ -1,0 +1,6114 @@
+[2026-04-20T14:14:41.5214320Z] starting scheduled BTCUSD paper run
+{
+  "atr": 213.68999999999903,
+  "avg_entry": null,
+  "cash": 99957.22,
+  "chandelier_stop": 74950.73000000001,
+  "daily_risk": {
+    "current_cash": 99957.22,
+    "current_equity": 99957.22,
+    "current_loss": 0.0,
+    "date": "2026-04-20",
+    "halted": false,
+    "max_loss": 49978.61,
+    "start_cash": 99957.22,
+    "start_equity": 99957.22,
+    "updated_at": "2026-04-20T14:14:47.179508+00:00"
+  },
+  "decision": "buy",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [],
+  "open_orders": 0,
+  "order": {
+    "asset_class": "crypto",
+    "asset_id": "276e2673-764b-4ab6-a611-caf665ca6340",
+    "canceled_at": null,
+    "client_order_id": "a01fe497-8d60-4d26-b8c4-d9de6ba09cea",
+    "created_at": "2026-04-20T14:14:46.619185196Z",
+    "expired_at": null,
+    "expires_at": "2026-07-19T20:00:00Z",
+    "extended_hours": false,
+    "failed_at": null,
+    "filled_at": null,
+    "filled_avg_price": null,
+    "filled_qty": "0",
+    "hwm": null,
+    "id": "f45ea625-c6dc-4114-af70-6c93c383e04e",
+    "legs": null,
+    "limit_price": null,
+    "notional": "9995.72",
+    "order_class": "",
+    "order_type": "market",
+    "position_intent": "buy_to_open",
+    "qty": null,
+    "replaced_at": null,
+    "replaced_by": null,
+    "replaces": null,
+    "side": "buy",
+    "source": null,
+    "status": "pending_new",
+    "stop_price": null,
+    "submitted_at": "2026-04-20T14:14:46.619185196Z",
+    "subtag": null,
+    "symbol": "BTC/USD",
+    "time_in_force": "gtc",
+    "trail_percent": null,
+    "trail_price": null,
+    "type": "market",
+    "updated_at": "2026-04-20T14:14:46.619993246Z"
+  },
+  "price": 75119.896,
+  "qty": 0.0,
+  "reason": "price_above_chandelier_stop",
+  "report_written": false,
+  "stop_floor": null,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-20T14:14:47.675569+00:00"
+}
+[2026-04-20T14:14:47.7351213Z] finished exit_code=0
+[2026-04-20T14:16:03.5577166Z] starting scheduled BTCUSD paper run
+{
+  "atr": 206.0598409090903,
+  "avg_entry": 75159.11,
+  "cash": 90157.39,
+  "chandelier_stop": 74928.04147727274,
+  "daily_risk": {
+    "current_cash": 90157.39,
+    "current_equity": 99927.61,
+    "current_loss": 29.610000000000582,
+    "date": "2026-04-20",
+    "halted": false,
+    "max_loss": 49978.61,
+    "start_cash": 99957.22,
+    "start_equity": 99957.22,
+    "updated_at": "2026-04-20T14:16:16.031507+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [
+    "raised_stop_floor_to_74928.04"
+  ],
+  "open_orders": 0,
+  "order": null,
+  "price": 75125.803,
+  "qty": 0.130061831,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 74928.04147727274,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-20T14:16:16.035855+00:00"
+}
+[2026-04-20T14:16:16.1639175Z] finished exit_code=0
+[2026-04-20T14:20:03.1310628Z] starting scheduled BTCUSD paper run
+{
+  "atr": 214.669249999999,
+  "avg_entry": 75159.11,
+  "cash": 90157.39,
+  "chandelier_stop": 74902.21325,
+  "daily_risk": {
+    "current_cash": 90157.39,
+    "current_equity": 99955.24,
+    "current_loss": 1.9799999999959255,
+    "date": "2026-04-20",
+    "halted": false,
+    "max_loss": 49978.61,
+    "start_cash": 99957.22,
+    "start_equity": 99957.22,
+    "updated_at": "2026-04-20T14:20:09.151479+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [],
+  "open_orders": 0,
+  "order": null,
+  "price": 75333.533,
+  "qty": 0.130061831,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 74928.04147727274,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-20T14:20:09.151479+00:00"
+}
+[2026-04-20T14:20:09.1978213Z] finished exit_code=0
+[2026-04-20T14:25:03.0225688Z] starting scheduled BTCUSD paper run
+{
+  "error": "<urlopen error [WinError 10054] An existing connection was forcibly closed by the remote host>",
+  "timestamp": "2026-04-20T14:25:19.831214+00:00"
+}
+[2026-04-20T14:25:19.8804653Z] finished exit_code=1
+[2026-04-20T14:30:03.2553568Z] starting scheduled BTCUSD paper run
+{
+  "atr": 230.55778636363473,
+  "avg_entry": 75159.11,
+  "cash": 90157.39,
+  "chandelier_stop": 75119.1166409091,
+  "daily_risk": {
+    "current_cash": 90157.39,
+    "current_equity": 99969.75,
+    "current_loss": 0.0,
+    "date": "2026-04-20",
+    "halted": false,
+    "max_loss": 49978.61,
+    "start_cash": 99957.22,
+    "start_equity": 99957.22,
+    "updated_at": "2026-04-20T14:30:10.672319+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [
+    "raised_stop_floor_to_75119.12"
+  ],
+  "open_orders": 0,
+  "order": null,
+  "price": 75611.97,
+  "qty": 0.130061831,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 75119.1166409091,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-20T14:30:10.673285+00:00"
+}
+[2026-04-20T14:30:10.7713044Z] finished exit_code=0
+[2026-04-20T14:35:02.8696359Z] starting scheduled BTCUSD paper run
+{
+  "atr": 232.0569681818167,
+  "avg_entry": 75159.11,
+  "cash": 90157.39,
+  "chandelier_stop": 75114.61909545455,
+  "daily_risk": {
+    "current_cash": 90157.39,
+    "current_equity": 99989.87,
+    "current_loss": 0.0,
+    "date": "2026-04-20",
+    "halted": false,
+    "max_loss": 49978.61,
+    "start_cash": 99957.22,
+    "start_equity": 99957.22,
+    "updated_at": "2026-04-20T14:35:10.155587+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [],
+  "open_orders": 0,
+  "order": null,
+  "price": 75566.3975,
+  "qty": 0.130061831,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 75119.1166409091,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-20T14:35:10.155587+00:00"
+}
+[2026-04-20T14:35:10.2054101Z] finished exit_code=0
+[2026-04-20T14:40:02.3348184Z] starting scheduled BTCUSD paper run
+{
+  "atr": 232.6664454545442,
+  "avg_entry": 75159.11,
+  "cash": 90157.39,
+  "chandelier_stop": 75112.79066363636,
+  "daily_risk": {
+    "current_cash": 90157.39,
+    "current_equity": 99983.03,
+    "current_loss": 0.0,
+    "date": "2026-04-20",
+    "halted": false,
+    "max_loss": 49978.61,
+    "start_cash": 99957.22,
+    "start_equity": 99957.22,
+    "updated_at": "2026-04-20T14:40:10.436544+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [],
+  "open_orders": 0,
+  "order": null,
+  "price": 75519.81,
+  "qty": 0.130061831,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 75119.1166409091,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-20T14:40:10.437545+00:00"
+}
+[2026-04-20T14:40:10.4964694Z] finished exit_code=0
+[2026-04-20T14:46:02.7779182Z] starting scheduled BTCUSD paper run
+{
+  "atr": 240.5218999999984,
+  "avg_entry": 75159.11,
+  "cash": 90157.39,
+  "chandelier_stop": 75089.2243,
+  "daily_risk": {
+    "current_cash": 90157.39,
+    "current_equity": 99961.77,
+    "current_loss": 0.0,
+    "date": "2026-04-20",
+    "halted": false,
+    "max_loss": 49978.61,
+    "start_cash": 99957.22,
+    "start_equity": 99957.22,
+    "updated_at": "2026-04-20T14:46:08.022356+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [],
+  "open_orders": 0,
+  "order": null,
+  "price": 75364.0375,
+  "qty": 0.130061831,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 75119.1166409091,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-20T14:46:08.023450+00:00"
+}
+[2026-04-20T14:46:08.1285271Z] finished exit_code=0
+[2026-04-20T14:51:02.6439844Z] starting scheduled BTCUSD paper run
+{
+  "atr": 243.31335454545345,
+  "avg_entry": 75159.11,
+  "cash": 90157.39,
+  "chandelier_stop": 75080.84993636364,
+  "daily_risk": {
+    "current_cash": 90157.39,
+    "current_equity": 99969.51,
+    "current_loss": 0.0,
+    "date": "2026-04-20",
+    "halted": false,
+    "max_loss": 49978.61,
+    "start_cash": 99957.22,
+    "start_equity": 99957.22,
+    "updated_at": "2026-04-20T14:51:13.819214+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [],
+  "open_orders": 0,
+  "order": null,
+  "price": 75389.453,
+  "qty": 0.130061831,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 75119.1166409091,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-20T14:51:13.820211+00:00"
+}
+[2026-04-20T14:51:13.8605932Z] finished exit_code=0
+[2026-04-20T14:56:02.6136627Z] starting scheduled BTCUSD paper run
+{
+  "atr": 255.0324454545447,
+  "avg_entry": 75159.11,
+  "cash": 90157.39,
+  "chandelier_stop": 75045.69266363636,
+  "daily_risk": {
+    "current_cash": 90157.39,
+    "current_equity": 99912.77,
+    "current_loss": 44.44999999999709,
+    "date": "2026-04-20",
+    "halted": false,
+    "max_loss": 49978.61,
+    "start_cash": 99957.22,
+    "start_equity": 99957.22,
+    "updated_at": "2026-04-20T14:56:11.150266+00:00"
+  },
+  "decision": "sell",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [],
+  "open_orders": 0,
+  "order": {
+    "asset_class": "crypto",
+    "asset_id": "276e2673-764b-4ab6-a611-caf665ca6340",
+    "canceled_at": null,
+    "client_order_id": "4c38c322-4155-41de-8b92-c66e06db0001",
+    "created_at": "2026-04-20T14:56:11.902325469Z",
+    "expired_at": null,
+    "expires_at": "2026-07-19T20:00:00Z",
+    "extended_hours": false,
+    "failed_at": null,
+    "filled_at": null,
+    "filled_avg_price": null,
+    "filled_qty": "0",
+    "hwm": null,
+    "id": "68d62d0e-78bb-4b01-bdac-6203e4add937",
+    "legs": null,
+    "limit_price": null,
+    "notional": null,
+    "order_class": "",
+    "order_type": "market",
+    "position_intent": "sell_to_close",
+    "qty": "0.13006183",
+    "replaced_at": null,
+    "replaced_by": null,
+    "replaces": null,
+    "side": "sell",
+    "source": null,
+    "status": "pending_new",
+    "stop_price": null,
+    "submitted_at": "2026-04-20T14:56:11.902325469Z",
+    "subtag": null,
+    "symbol": "BTC/USD",
+    "time_in_force": "gtc",
+    "trail_percent": null,
+    "trail_price": null,
+    "type": "market",
+    "updated_at": "2026-04-20T14:56:11.903769569Z"
+  },
+  "price": 75031.65,
+  "qty": 0.130061831,
+  "reason": "price_75031.65_below_stop_floor_75119.12",
+  "report_written": false,
+  "stop_floor": 75119.1166409091,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-20T14:56:13.464811+00:00"
+}
+[2026-04-20T14:56:13.5152348Z] finished exit_code=0
+[2026-04-20T15:01:02.5985185Z] starting scheduled BTCUSD paper run
+{
+  "error": "POST https://paper-api.alpaca.markets/v2/orders failed with HTTP 422: {\"code\":40010001,\"message\":\"qty must be \\u003e 0\"}",
+  "timestamp": "2026-04-20T15:01:10.572949+00:00"
+}
+[2026-04-20T15:01:10.6173146Z] finished exit_code=1
+[2026-04-21T02:10:46.2754525Z] starting scheduled BTCUSD paper run
+{
+  "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'paper-api.alpaca.markets'. (_ssl.c:1010)>",
+  "timestamp": "2026-04-21T02:10:49.495103+00:00"
+}
+[2026-04-21T02:10:49.6940718Z] finished exit_code=1
+[2026-04-21T02:11:02.2347417Z] starting scheduled BTCUSD paper run
+{
+  "error": "POST https://paper-api.alpaca.markets/v2/orders failed with HTTP 422: {\"code\":40010001,\"message\":\"qty must be \\u003e 0\"}",
+  "timestamp": "2026-04-21T02:11:06.357195+00:00"
+}
+[2026-04-21T02:11:06.4244988Z] finished exit_code=1
+[2026-04-21T02:16:02.7004572Z] starting scheduled BTCUSD paper run
+{
+  "error": "POST https://paper-api.alpaca.markets/v2/orders failed with HTTP 422: {\"code\":40010001,\"message\":\"qty must be \\u003e 0\"}",
+  "timestamp": "2026-04-21T02:16:06.999017+00:00"
+}
+[2026-04-21T02:16:07.0651810Z] finished exit_code=1
+[2026-04-21T02:21:02.6357920Z] starting scheduled BTCUSD paper run
+{
+  "error": "POST https://paper-api.alpaca.markets/v2/orders failed with HTTP 422: {\"code\":40010001,\"message\":\"qty must be \\u003e 0\"}",
+  "timestamp": "2026-04-21T02:21:06.846994+00:00"
+}
+[2026-04-21T02:21:06.9099001Z] finished exit_code=1
+[2026-04-21T02:26:06.2472464Z] starting scheduled BTCUSD paper run
+{
+  "error": "POST https://paper-api.alpaca.markets/v2/orders failed with HTTP 422: {\"code\":40010001,\"message\":\"qty must be \\u003e 0\"}",
+  "timestamp": "2026-04-21T02:26:13.772198+00:00"
+}
+[2026-04-21T02:26:13.8239079Z] finished exit_code=1
+[2026-04-21T02:31:02.1371284Z] starting scheduled BTCUSD paper run
+{
+  "error": "POST https://paper-api.alpaca.markets/v2/orders failed with HTTP 422: {\"code\":40010001,\"message\":\"qty must be \\u003e 0\"}",
+  "timestamp": "2026-04-21T02:31:06.073080+00:00"
+}
+[2026-04-21T02:31:06.1313220Z] finished exit_code=1
+[2026-04-21T02:36:02.8918310Z] starting scheduled BTCUSD paper run
+{
+  "error": "POST https://paper-api.alpaca.markets/v2/orders failed with HTTP 422: {\"code\":40010001,\"message\":\"qty must be \\u003e 0\"}",
+  "timestamp": "2026-04-21T02:36:07.365278+00:00"
+}
+[2026-04-21T02:36:07.4465765Z] finished exit_code=1
+[2026-04-21T02:41:02.7061194Z] starting scheduled BTCUSD paper run
+{
+  "error": "POST https://paper-api.alpaca.markets/v2/orders failed with HTTP 422: {\"code\":40010001,\"message\":\"qty must be \\u003e 0\"}",
+  "timestamp": "2026-04-21T02:41:06.982133+00:00"
+}
+[2026-04-21T02:41:07.0527397Z] finished exit_code=1
+[2026-04-21T02:46:02.6931932Z] starting scheduled BTCUSD paper run
+{
+  "error": "POST https://paper-api.alpaca.markets/v2/orders failed with HTTP 422: {\"code\":40010001,\"message\":\"qty must be \\u003e 0\"}",
+  "timestamp": "2026-04-21T02:46:07.161156+00:00"
+}
+[2026-04-21T02:46:07.2309086Z] finished exit_code=1
+[2026-04-21T02:51:02.9053211Z] starting scheduled BTCUSD paper run
+{
+  "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'paper-api.alpaca.markets'. (_ssl.c:1010)>",
+  "timestamp": "2026-04-21T02:51:04.272574+00:00"
+}
+[2026-04-21T02:51:04.3033474Z] finished exit_code=1
+[2026-04-21T02:56:02.2490609Z] starting scheduled BTCUSD paper run
+{
+  "error": "POST https://paper-api.alpaca.markets/v2/orders failed with HTTP 422: {\"code\":40010001,\"message\":\"qty must be \\u003e 0\"}",
+  "timestamp": "2026-04-21T02:56:06.372168+00:00"
+}
+[2026-04-21T02:56:06.4174395Z] finished exit_code=1
+[2026-04-21T03:01:02.6775346Z] starting scheduled BTCUSD paper run
+{
+  "error": "POST https://paper-api.alpaca.markets/v2/orders failed with HTTP 422: {\"code\":40010001,\"message\":\"qty must be \\u003e 0\"}",
+  "timestamp": "2026-04-21T03:01:07.132396+00:00"
+}
+[2026-04-21T03:01:07.2120311Z] finished exit_code=1
+[2026-04-21T03:06:02.6420796Z] starting scheduled BTCUSD paper run
+{
+  "error": "POST https://paper-api.alpaca.markets/v2/orders failed with HTTP 422: {\"code\":40010001,\"message\":\"qty must be \\u003e 0\"}",
+  "timestamp": "2026-04-21T03:06:07.108199+00:00"
+}
+[2026-04-21T03:06:07.1792290Z] finished exit_code=1
+[2026-04-21T03:11:02.7450514Z] starting scheduled BTCUSD paper run
+{
+  "error": "POST https://paper-api.alpaca.markets/v2/orders failed with HTTP 422: {\"code\":40010001,\"message\":\"qty must be \\u003e 0\"}",
+  "timestamp": "2026-04-21T03:11:07.144724+00:00"
+}
+[2026-04-21T03:11:07.2152965Z] finished exit_code=1
+[2026-04-21T03:16:02.2415463Z] starting scheduled BTCUSD paper run
+{
+  "error": "POST https://paper-api.alpaca.markets/v2/orders failed with HTTP 422: {\"code\":40010001,\"message\":\"qty must be \\u003e 0\"}",
+  "timestamp": "2026-04-21T03:16:06.307286+00:00"
+}
+[2026-04-21T03:16:06.3672061Z] finished exit_code=1
+[2026-04-21T03:21:02.7094965Z] starting scheduled BTCUSD paper run
+{
+  "error": "POST https://paper-api.alpaca.markets/v2/orders failed with HTTP 422: {\"code\":40010001,\"message\":\"qty must be \\u003e 0\"}",
+  "timestamp": "2026-04-21T03:21:07.065053+00:00"
+}
+[2026-04-21T03:21:07.1281664Z] finished exit_code=1
+[2026-04-21T03:26:02.6031304Z] starting scheduled BTCUSD paper run
+{
+  "error": "POST https://paper-api.alpaca.markets/v2/orders failed with HTTP 422: {\"code\":40010001,\"message\":\"qty must be \\u003e 0\"}",
+  "timestamp": "2026-04-21T03:26:06.936317+00:00"
+}
+[2026-04-21T03:26:07.0226414Z] finished exit_code=1
+[2026-04-21T03:31:02.6716771Z] starting scheduled BTCUSD paper run
+{
+  "error": "POST https://paper-api.alpaca.markets/v2/orders failed with HTTP 422: {\"code\":40010001,\"message\":\"qty must be \\u003e 0\"}",
+  "timestamp": "2026-04-21T03:31:07.005470+00:00"
+}
+[2026-04-21T03:31:07.0548208Z] finished exit_code=1
+[2026-04-21T03:36:02.6229817Z] starting scheduled BTCUSD paper run
+{
+  "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'paper-api.alpaca.markets'. (_ssl.c:1010)>",
+  "timestamp": "2026-04-21T03:36:06.108935+00:00"
+}
+[2026-04-21T03:36:06.1800336Z] finished exit_code=1
+[2026-04-21T03:41:02.6802241Z] starting scheduled BTCUSD paper run
+{
+  "error": "POST https://paper-api.alpaca.markets/v2/orders failed with HTTP 422: {\"code\":40010001,\"message\":\"qty must be \\u003e 0\"}",
+  "timestamp": "2026-04-21T03:41:07.294950+00:00"
+}
+[2026-04-21T03:41:07.3610472Z] finished exit_code=1
+[2026-04-21T03:46:08.9597081Z] starting scheduled BTCUSD paper run
+{
+  "error": "POST https://paper-api.alpaca.markets/v2/orders failed with HTTP 422: {\"code\":40010001,\"message\":\"qty must be \\u003e 0\"}",
+  "timestamp": "2026-04-21T03:46:15.956547+00:00"
+}
+[2026-04-21T03:46:16.0453678Z] finished exit_code=1
+[2026-04-21T03:51:02.8118961Z] starting scheduled BTCUSD paper run
+{
+  "atr": 121.1962522727256,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 75514.74124318182,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-21",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-21T03:51:07.186257+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [
+    "raised_stop_floor_to_75514.74"
+  ],
+  "open_orders": 0,
+  "order": null,
+  "price": 75698.11,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": true,
+  "stop_floor": 75514.74124318182,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-21T03:51:07.241327+00:00"
+}
+[2026-04-21T03:51:07.3232846Z] finished exit_code=0
+[2026-04-21T03:56:02.1200529Z] starting scheduled BTCUSD paper run
+{
+  "atr": 124.08824659090764,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 75506.06526022727,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-21",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-21T03:56:05.837241+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [],
+  "open_orders": 0,
+  "order": null,
+  "price": 75734.715,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 75514.74124318182,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-21T03:56:05.838243+00:00"
+}
+[2026-04-21T03:56:05.8971619Z] finished exit_code=0
+[2026-04-21T04:01:02.4709260Z] starting scheduled BTCUSD paper run
+{
+  "atr": 118.90249659090742,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 75521.62251022727,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-21",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-21T04:01:05.997120+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [
+    "raised_stop_floor_to_75521.62"
+  ],
+  "open_orders": 0,
+  "order": null,
+  "price": 75785.125,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 75521.62251022727,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-21T04:01:06.000954+00:00"
+}
+[2026-04-21T04:01:06.0717936Z] finished exit_code=0
+[2026-04-21T04:06:02.3384362Z] starting scheduled BTCUSD paper run
+{
+  "atr": 121.86161022727174,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 75512.7451693182,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-21",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-21T04:06:05.839658+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [],
+  "open_orders": 0,
+  "order": null,
+  "price": 75697.005,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 75521.62251022727,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-21T04:06:05.841856+00:00"
+}
+[2026-04-21T04:06:05.9210139Z] finished exit_code=0
+[2026-04-21T04:11:02.4179773Z] starting scheduled BTCUSD paper run
+{
+  "atr": 123.42199659090892,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 75508.06401022727,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-21",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-21T04:11:06.033561+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [],
+  "open_orders": 0,
+  "order": null,
+  "price": 75676.1325,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 75521.62251022727,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-21T04:11:06.034563+00:00"
+}
+[2026-04-21T04:11:06.1136399Z] finished exit_code=0
+[2026-04-21T04:16:01.8385460Z] starting scheduled BTCUSD paper run
+{
+  "atr": 121.96433749999878,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 75512.43698750001,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-21",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-21T04:16:05.166891+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [],
+  "open_orders": 0,
+  "order": null,
+  "price": 75680.9175,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 75521.62251022727,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-21T04:16:05.166891+00:00"
+}
+[2026-04-21T04:16:05.2112753Z] finished exit_code=0
+[2026-04-21T04:21:02.4849347Z] starting scheduled BTCUSD paper run
+{
+  "atr": 119.11713295454419,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 75461.28731363638,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-21",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-21T04:21:06.256562+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [],
+  "open_orders": 0,
+  "order": null,
+  "price": 75660.987,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 75521.62251022727,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-21T04:21:06.257559+00:00"
+}
+[2026-04-21T04:21:06.3471973Z] finished exit_code=0
+[2026-04-21T04:26:02.3773702Z] starting scheduled BTCUSD paper run
+{
+  "atr": 113.38270113636298,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 75478.49060909092,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-21",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-21T04:26:06.035936+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [],
+  "open_orders": 0,
+  "order": null,
+  "price": 75665.9,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 75521.62251022727,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-21T04:26:06.037165+00:00"
+}
+[2026-04-21T04:26:06.1074061Z] finished exit_code=0
+[2026-04-21T04:31:02.5903528Z] starting scheduled BTCUSD paper run
+{
+  "atr": 114.52604204545324,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 75475.06058636364,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-21",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-21T04:31:06.559259+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [],
+  "open_orders": 0,
+  "order": null,
+  "price": 75678.7535,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 75521.62251022727,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-21T04:31:06.562268+00:00"
+}
+[2026-04-21T04:31:06.6544738Z] finished exit_code=0
+[2026-04-21T04:36:01.9141069Z] starting scheduled BTCUSD paper run
+{
+  "atr": 112.68890568181682,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 75480.57199545455,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-21",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-21T04:36:05.426850+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [],
+  "open_orders": 0,
+  "order": null,
+  "price": 75725.5355,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 75521.62251022727,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-21T04:36:05.427945+00:00"
+}
+[2026-04-21T04:36:05.4682097Z] finished exit_code=0
+[2026-04-21T04:41:01.7324776Z] starting scheduled BTCUSD paper run
+{
+  "atr": 115.53072386363584,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 75472.0465409091,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-21",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-21T04:41:05.046955+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [],
+  "open_orders": 0,
+  "order": null,
+  "price": 75735.6,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 75521.62251022727,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-21T04:41:05.048051+00:00"
+}
+[2026-04-21T04:41:05.0854326Z] finished exit_code=0
+[2026-04-21T04:46:02.3041401Z] starting scheduled BTCUSD paper run
+{
+  "atr": 117.62445113636271,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 75465.76535909092,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-21",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-21T04:46:05.979854+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [],
+  "open_orders": 0,
+  "order": null,
+  "price": 75742.9735,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 75521.62251022727,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-21T04:46:05.980857+00:00"
+}
+[2026-04-21T04:46:06.0493705Z] finished exit_code=0
+[2026-04-21T04:51:02.4859464Z] starting scheduled BTCUSD paper run
+{
+  "atr": 104.78691874999905,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 75504.27795625,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-21",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-21T04:51:06.163726+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [],
+  "open_orders": 0,
+  "order": null,
+  "price": 75755.6,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 75521.62251022727,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-21T04:51:06.164722+00:00"
+}
+[2026-04-21T04:51:06.2381901Z] finished exit_code=0
+[2026-04-21T04:56:02.5030947Z] starting scheduled BTCUSD paper run
+{
+  "atr": 106.48550965908957,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 75534.71047102273,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-21",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-21T04:56:06.336049+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [
+    "raised_stop_floor_to_75534.71"
+  ],
+  "open_orders": 0,
+  "order": null,
+  "price": 75798.4,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 75534.71047102273,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-21T04:56:06.337045+00:00"
+}
+[2026-04-21T04:56:06.4079675Z] finished exit_code=0
+[2026-04-21T05:01:02.4543432Z] starting scheduled BTCUSD paper run
+{
+  "atr": 106.51230511363511,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 75555.93308465909,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-21",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-21T05:01:06.099029+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [
+    "raised_stop_floor_to_75555.93"
+  ],
+  "open_orders": 0,
+  "order": null,
+  "price": 75866.0015,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 75555.93308465909,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-21T05:01:06.100024+00:00"
+}
+[2026-04-21T05:01:06.1685867Z] finished exit_code=0
+[2026-04-21T05:06:02.4584499Z] starting scheduled BTCUSD paper run
+{
+  "atr": 104.24905511363481,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 75604.0678346591,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-21",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-21T05:06:06.033916+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [
+    "raised_stop_floor_to_75604.07"
+  ],
+  "open_orders": 0,
+  "order": null,
+  "price": 75858.85,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 75604.0678346591,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-21T05:06:06.035420+00:00"
+}
+[2026-04-21T05:06:06.1017747Z] finished exit_code=0
+[2026-04-21T05:11:02.3899647Z] starting scheduled BTCUSD paper run
+{
+  "atr": 106.54539602272548,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 75688.05831193182,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-21",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-21T05:11:05.987469+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [
+    "raised_stop_floor_to_75688.06"
+  ],
+  "open_orders": 0,
+  "order": null,
+  "price": 75922.202,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 75688.05831193182,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-21T05:11:05.990610+00:00"
+}
+[2026-04-21T05:11:06.0875655Z] finished exit_code=0
+[2026-04-21T05:16:02.6699582Z] starting scheduled BTCUSD paper run
+{
+  "atr": 98.99722727272588,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 75710.70281818182,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-21",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-21T05:16:06.299443+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [
+    "raised_stop_floor_to_75710.70"
+  ],
+  "open_orders": 0,
+  "order": null,
+  "price": 75936.5115,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 75710.70281818182,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-21T05:16:06.299443+00:00"
+}
+[2026-04-21T05:16:06.3583027Z] finished exit_code=0
+[2026-04-21T05:21:01.7488453Z] starting scheduled BTCUSD paper run
+{
+  "atr": 99.98215909090769,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 75707.74802272728,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-21",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-21T05:21:05.103796+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [],
+  "open_orders": 0,
+  "order": null,
+  "price": 75980.041,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 75710.70281818182,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-21T05:21:05.104881+00:00"
+}
+[2026-04-21T05:21:05.1542333Z] finished exit_code=0
+[2026-04-21T05:26:02.5479324Z] starting scheduled BTCUSD paper run
+{
+  "atr": 96.7232499999981,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 75759.53025,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-21",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-21T05:26:06.149506+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [
+    "raised_stop_floor_to_75759.53"
+  ],
+  "open_orders": 0,
+  "order": null,
+  "price": 75979.9385,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 75759.53025,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-21T05:26:06.150545+00:00"
+}
+[2026-04-21T05:26:06.2180990Z] finished exit_code=0
+[2026-04-21T05:31:01.9469433Z] starting scheduled BTCUSD paper run
+{
+  "atr": 101.17109090908872,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 75746.18672727272,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-21",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-21T05:31:05.250283+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [],
+  "open_orders": 0,
+  "order": null,
+  "price": 75937.5425,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 75759.53025,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-21T05:31:05.251854+00:00"
+}
+[2026-04-21T05:31:05.3082225Z] finished exit_code=0
+[2026-04-21T05:36:02.5796500Z] starting scheduled BTCUSD paper run
+{
+  "atr": 99.94622727272508,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 75749.86131818182,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-21",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-21T05:36:06.287722+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [],
+  "open_orders": 0,
+  "order": null,
+  "price": 75894.4465,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 75759.53025,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-21T05:36:06.288739+00:00"
+}
+[2026-04-21T05:36:06.3573299Z] finished exit_code=0
+[2026-04-21T05:41:01.7870033Z] starting scheduled BTCUSD paper run
+{
+  "atr": 100.4585681818161,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 75748.32429545454,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-21",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-21T05:41:05.100115+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [],
+  "open_orders": 0,
+  "order": null,
+  "price": 75893.4185,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 75759.53025,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-21T05:41:05.101111+00:00"
+}
+[2026-04-21T05:41:05.1395835Z] finished exit_code=0
+[2026-04-21T05:46:01.7995476Z] starting scheduled BTCUSD paper run
+{
+  "atr": 100.13854545454325,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 75749.28436363637,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-21",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-21T05:46:05.201086+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [],
+  "open_orders": 0,
+  "order": null,
+  "price": 75862.28,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 75759.53025,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-21T05:46:05.202465+00:00"
+}
+[2026-04-21T05:46:05.2453162Z] finished exit_code=0
+[2026-04-21T05:51:02.5460665Z] starting scheduled BTCUSD paper run
+{
+  "atr": 97.4198181818164,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 75757.44054545455,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-21",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-21T05:51:06.122031+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [],
+  "open_orders": 0,
+  "order": null,
+  "price": 75830.493,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 75759.53025,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-21T05:51:06.122031+00:00"
+}
+[2026-04-21T05:51:06.1634805Z] finished exit_code=0
+[2026-04-21T05:56:02.6523942Z] starting scheduled BTCUSD paper run
+{
+  "atr": 91.75465909090616,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 75774.43602272728,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-21",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-21T05:56:06.237177+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [
+    "raised_stop_floor_to_75774.44"
+  ],
+  "open_orders": 0,
+  "order": null,
+  "price": 75859.18,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 75774.43602272728,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-21T05:56:06.240626+00:00"
+}
+[2026-04-21T05:56:06.3419970Z] finished exit_code=0
+[2026-04-21T06:01:02.4994706Z] starting scheduled BTCUSD paper run
+{
+  "atr": 91.91634090908866,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 75773.95097727273,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-21",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-21T06:01:05.980665+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [],
+  "open_orders": 0,
+  "order": null,
+  "price": 75831.198,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 75774.43602272728,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-21T06:01:05.981871+00:00"
+}
+[2026-04-21T06:01:06.0487805Z] finished exit_code=0
+[2026-04-21T06:06:02.5041666Z] starting scheduled BTCUSD paper run
+{
+  "atr": 94.21986363636164,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 75767.04040909091,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-21",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-21T06:06:06.431837+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [],
+  "open_orders": 0,
+  "order": null,
+  "price": 75781.285,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 75774.43602272728,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-21T06:06:06.434022+00:00"
+}
+[2026-04-21T06:06:06.5205726Z] finished exit_code=0
+[2026-04-21T06:11:02.2268266Z] starting scheduled BTCUSD paper run
+{
+  "atr": 98.18627272727066,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 75755.14118181818,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-21",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-21T06:11:05.891643+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [],
+  "open_orders": 0,
+  "order": null,
+  "price": 75818.5155,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 75774.43602272728,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-21T06:11:05.893738+00:00"
+}
+[2026-04-21T06:11:05.9473787Z] finished exit_code=0
+[2026-04-21T06:16:01.8212220Z] starting scheduled BTCUSD paper run
+{
+  "atr": 95.92247727272546,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 75761.93256818182,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-21",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-21T06:16:05.376654+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [],
+  "open_orders": 0,
+  "order": null,
+  "price": 75806.6,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 75774.43602272728,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-21T06:16:05.377691+00:00"
+}
+[2026-04-21T06:16:05.4058039Z] finished exit_code=0
+[2026-04-21T06:21:01.8702457Z] starting scheduled BTCUSD paper run
+{
+  "error": "POST https://paper-api.alpaca.markets/v2/orders failed with HTTP 422: {\"code\":40010001,\"message\":\"qty must be \\u003e 0\"}",
+  "timestamp": "2026-04-21T06:21:06.144326+00:00"
+}
+[2026-04-21T06:21:06.1943314Z] finished exit_code=1
+[2026-04-21T06:26:02.6084252Z] starting scheduled BTCUSD paper run
+{
+  "error": "POST https://paper-api.alpaca.markets/v2/orders failed with HTTP 422: {\"code\":40010001,\"message\":\"qty must be \\u003e 0\"}",
+  "timestamp": "2026-04-21T06:26:06.949325+00:00"
+}
+[2026-04-21T06:26:07.0570543Z] finished exit_code=1
+[2026-04-21T06:31:02.7838593Z] starting scheduled BTCUSD paper run
+{
+  "atr": 98.0978181818176,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 75755.40654545455,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-21",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-21T06:31:06.618604+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [],
+  "open_orders": 0,
+  "order": null,
+  "price": 75836.705,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 75774.43602272728,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-21T06:31:06.619600+00:00"
+}
+[2026-04-21T06:31:06.6857650Z] finished exit_code=0
+[2026-04-21T06:36:02.5363754Z] starting scheduled BTCUSD paper run
+{
+  "atr": 110.39887329545375,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 75799.54209261363,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-21",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-21T06:36:06.392534+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [
+    "raised_stop_floor_to_75799.54"
+  ],
+  "open_orders": 0,
+  "order": null,
+  "price": 76126.4887125,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 75799.54209261363,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-21T06:36:06.393624+00:00"
+}
+[2026-04-21T06:36:06.4557099Z] finished exit_code=0
+[2026-04-21T06:41:02.6589209Z] starting scheduled BTCUSD paper run
+{
+  "atr": 109.8402238636349,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 75807.75675340909,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-21",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-21T06:41:06.544458+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [
+    "raised_stop_floor_to_75807.76"
+  ],
+  "open_orders": 0,
+  "order": null,
+  "price": 76098.095,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 75807.75675340909,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-21T06:41:06.545454+00:00"
+}
+[2026-04-21T06:41:06.6132810Z] finished exit_code=0
+[2026-04-21T06:46:02.5940130Z] starting scheduled BTCUSD paper run
+{
+  "atr": 109.2520193181805,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 75809.52136704545,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-21",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-21T06:46:06.403062+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [
+    "raised_stop_floor_to_75809.52"
+  ],
+  "open_orders": 0,
+  "order": null,
+  "price": 76040.086,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 75809.52136704545,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-21T06:46:06.405452+00:00"
+}
+[2026-04-21T06:46:06.4744721Z] finished exit_code=0
+[2026-04-21T06:51:01.8793585Z] starting scheduled BTCUSD paper run
+{
+  "atr": 108.01570113636329,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 75813.2303215909,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-21",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-21T06:51:05.499397+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [
+    "raised_stop_floor_to_75813.23"
+  ],
+  "open_orders": 0,
+  "order": null,
+  "price": 76073.0405,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 75813.2303215909,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-21T06:51:05.501485+00:00"
+}
+[2026-04-21T06:51:05.5512451Z] finished exit_code=0
+[2026-04-21T06:56:02.6821182Z] starting scheduled BTCUSD paper run
+{
+  "atr": 105.33015568181806,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 75821.28695795454,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-21",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-21T06:56:06.487452+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [
+    "raised_stop_floor_to_75821.29"
+  ],
+  "open_orders": 0,
+  "order": null,
+  "price": 76017.874,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 75821.28695795454,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-21T06:56:06.488448+00:00"
+}
+[2026-04-21T06:56:06.5667886Z] finished exit_code=0
+[2026-04-21T07:01:02.8456684Z] starting scheduled BTCUSD paper run
+{
+  "atr": 110.11399659090834,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 75806.93543522726,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-21",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-21T07:01:06.661182+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [],
+  "open_orders": 0,
+  "order": null,
+  "price": 75938.4715,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 75821.28695795454,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-21T07:01:06.662723+00:00"
+}
+[2026-04-21T07:01:06.7455978Z] finished exit_code=0
+[2026-04-21T07:06:02.0965133Z] starting scheduled BTCUSD paper run
+{
+  "atr": 113.60351931818083,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 75796.46686704546,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-21",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-21T07:06:05.665620+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [],
+  "open_orders": 0,
+  "order": null,
+  "price": 75936.95,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 75821.28695795454,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-21T07:06:05.666702+00:00"
+}
+[2026-04-21T07:06:05.7173031Z] finished exit_code=0
+[2026-04-21T07:11:02.5837567Z] starting scheduled BTCUSD paper run
+{
+  "atr": 110.11201931818042,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 75806.94136704545,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-21",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-21T07:11:06.414458+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [],
+  "open_orders": 0,
+  "order": null,
+  "price": 75984.915,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 75821.28695795454,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-21T07:11:06.417280+00:00"
+}
+[2026-04-21T07:11:06.5048323Z] finished exit_code=0
+[2026-04-21T07:16:02.6083589Z] starting scheduled BTCUSD paper run
+{
+  "atr": 107.17292840909,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 75815.75863977273,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-21",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-21T07:16:06.452200+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [],
+  "open_orders": 0,
+  "order": null,
+  "price": 76037.605,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 75821.28695795454,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-21T07:16:06.454387+00:00"
+}
+[2026-04-21T07:16:06.5213299Z] finished exit_code=0
+[2026-04-21T07:21:02.6661995Z] starting scheduled BTCUSD paper run
+{
+  "atr": 106.77357443181774,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 75816.95670170453,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-21",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-21T07:21:06.537860+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [],
+  "open_orders": 0,
+  "order": null,
+  "price": 76097.8887125,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 75821.28695795454,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-21T07:21:06.539964+00:00"
+}
+[2026-04-21T07:21:06.6237536Z] finished exit_code=0
+[2026-04-21T07:26:02.5893211Z] starting scheduled BTCUSD paper run
+{
+  "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'paper-api.alpaca.markets'. (_ssl.c:1010)>",
+  "timestamp": "2026-04-21T07:26:03.028010+00:00"
+}
+[2026-04-21T07:26:03.0611999Z] finished exit_code=1
+[2026-04-21T07:31:02.6956828Z] starting scheduled BTCUSD paper run
+{
+  "atr": 116.38758409090819,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 75969.19674772728,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-21",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-21T07:31:06.466900+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [
+    "raised_stop_floor_to_75969.20"
+  ],
+  "open_orders": 0,
+  "order": null,
+  "price": 76177.5875,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 75969.19674772728,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-21T07:31:06.467896+00:00"
+}
+[2026-04-21T07:31:06.5400294Z] finished exit_code=0
+[2026-04-21T07:36:02.7319825Z] starting scheduled BTCUSD paper run
+{
+  "atr": 122.73540227272646,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 75950.15329318182,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-21",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-21T07:36:06.572179+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [],
+  "open_orders": 0,
+  "order": null,
+  "price": 76179.335,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 75969.19674772728,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-21T07:36:06.573176+00:00"
+}
+[2026-04-21T07:36:06.6399084Z] finished exit_code=0
+[2026-04-21T07:41:02.0011810Z] starting scheduled BTCUSD paper run
+{
+  "atr": 125.766379545454,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 75941.06036136365,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-21",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-21T07:41:05.598115+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [],
+  "open_orders": 0,
+  "order": null,
+  "price": 76260.19,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 75969.19674772728,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-21T07:41:05.599199+00:00"
+}
+[2026-04-21T07:41:05.6522048Z] finished exit_code=0
+[2026-04-21T07:46:02.8240106Z] starting scheduled BTCUSD paper run
+{
+  "atr": 128.4004477272723,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 75945.86865681819,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-21",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-21T07:46:06.939027+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [],
+  "open_orders": 0,
+  "order": null,
+  "price": 76187.07,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 75969.19674772728,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-21T07:46:06.941353+00:00"
+}
+[2026-04-21T07:46:07.0431102Z] finished exit_code=0
+[2026-04-21T07:51:02.6988595Z] starting scheduled BTCUSD paper run
+{
+  "atr": 128.80390227272636,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 75944.65829318183,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-21",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-21T07:51:06.514863+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [],
+  "open_orders": 0,
+  "order": null,
+  "price": 76268.45,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 75969.19674772728,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-21T07:51:06.515874+00:00"
+}
+[2026-04-21T07:51:06.5720872Z] finished exit_code=0
+[2026-04-21T07:56:02.8296319Z] starting scheduled BTCUSD paper run
+{
+  "atr": 131.10733409090807,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 75937.74799772729,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-21",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-21T07:56:07.891134+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [],
+  "open_orders": 0,
+  "order": null,
+  "price": 76128.565,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 75969.19674772728,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-21T07:56:07.892129+00:00"
+}
+[2026-04-21T07:56:07.9584965Z] finished exit_code=0
+[2026-04-21T08:01:02.7814609Z] starting scheduled BTCUSD paper run
+{
+  "atr": 131.57519772727193,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 75936.34440681819,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-21",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-21T08:01:06.708089+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [],
+  "open_orders": 0,
+  "order": null,
+  "price": 76141.864,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 75969.19674772728,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-21T08:01:06.709115+00:00"
+}
+[2026-04-21T08:01:06.7756719Z] finished exit_code=0
+[2026-04-21T08:06:02.0317439Z] starting scheduled BTCUSD paper run
+{
+  "atr": 131.30576590908922,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 75937.15270227274,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-21",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-21T08:06:05.651763+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [],
+  "open_orders": 0,
+  "order": null,
+  "price": 76182.222,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 75969.19674772728,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-21T08:06:05.652852+00:00"
+}
+[2026-04-21T08:06:05.6999437Z] finished exit_code=0
+[2026-04-21T08:11:02.0444455Z] starting scheduled BTCUSD paper run
+{
+  "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'paper-api.alpaca.markets'. (_ssl.c:1010)>",
+  "timestamp": "2026-04-21T08:11:03.303440+00:00"
+}
+[2026-04-21T08:11:03.3254480Z] finished exit_code=1
+[2026-04-21T08:16:02.8910941Z] starting scheduled BTCUSD paper run
+{
+  "atr": 136.77910681818057,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 75920.73267954547,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-21",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-21T08:16:06.746269+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [],
+  "open_orders": 0,
+  "order": null,
+  "price": 76196.094,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 75969.19674772728,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-21T08:16:06.749246+00:00"
+}
+[2026-04-21T08:16:06.8463656Z] finished exit_code=0
+[2026-04-21T08:21:02.0702899Z] starting scheduled BTCUSD paper run
+{
+  "atr": 136.07828863636215,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 75946.14513409091,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-21",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-21T08:21:05.732385+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [],
+  "open_orders": 0,
+  "order": null,
+  "price": 76336.7015,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 75969.19674772728,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-21T08:21:05.733492+00:00"
+}
+[2026-04-21T08:21:05.7868490Z] finished exit_code=0
+[2026-04-21T08:26:02.8211591Z] starting scheduled BTCUSD paper run
+{
+  "atr": 135.56140568181715,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 76005.66578295456,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-21",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-21T08:26:06.678027+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [
+    "raised_stop_floor_to_76005.67"
+  ],
+  "open_orders": 0,
+  "order": null,
+  "price": 76318.0,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 76005.66578295456,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-21T08:26:06.679077+00:00"
+}
+[2026-04-21T08:26:06.7476338Z] finished exit_code=0
+[2026-04-21T08:31:02.8307559Z] starting scheduled BTCUSD paper run
+{
+  "atr": 140.97283749999903,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 76028.9814875,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-21",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-21T08:31:06.807404+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [
+    "raised_stop_floor_to_76028.98"
+  ],
+  "open_orders": 0,
+  "order": null,
+  "price": 76369.65,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 76028.9814875,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-21T08:31:06.808400+00:00"
+}
+[2026-04-21T08:31:06.8756581Z] finished exit_code=0
+[2026-04-21T08:36:02.7689894Z] starting scheduled BTCUSD paper run
+{
+  "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'paper-api.alpaca.markets'. (_ssl.c:1010)>",
+  "timestamp": "2026-04-21T08:36:04.077965+00:00"
+}
+[2026-04-21T08:36:04.1232684Z] finished exit_code=1
+[2026-04-21T08:41:02.9362883Z] starting scheduled BTCUSD paper run
+{
+  "atr": 154.3370193181803,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 75988.88894204545,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-21",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-21T08:41:06.660255+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [],
+  "open_orders": 0,
+  "order": null,
+  "price": 76431.86,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 76028.9814875,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-21T08:41:06.661641+00:00"
+}
+[2026-04-21T08:41:06.8658672Z] finished exit_code=0
+[2026-04-21T08:46:02.9047283Z] starting scheduled BTCUSD paper run
+{
+  "atr": 155.29724659090755,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 76076.39926022728,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-21",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-21T08:46:06.770292+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [
+    "raised_stop_floor_to_76076.40"
+  ],
+  "open_orders": 0,
+  "order": null,
+  "price": 76479.1465,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 76076.39926022728,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-21T08:46:06.771288+00:00"
+}
+[2026-04-21T08:46:06.8330579Z] finished exit_code=0
+[2026-04-21T08:51:02.0920463Z] starting scheduled BTCUSD paper run
+{
+  "atr": 186.8352011363624,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 76283.50939659092,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-21",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-21T08:51:05.734184+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [
+    "raised_stop_floor_to_76283.51"
+  ],
+  "open_orders": 0,
+  "order": null,
+  "price": 76643.36,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 76283.50939659092,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-21T08:51:05.735272+00:00"
+}
+[2026-04-21T08:51:05.7870369Z] finished exit_code=0
+[2026-04-21T08:56:02.1049625Z] starting scheduled BTCUSD paper run
+{
+  "atr": 186.5881329545439,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 76284.25060113637,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-21",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-21T08:56:05.612890+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [
+    "raised_stop_floor_to_76284.25"
+  ],
+  "open_orders": 0,
+  "order": null,
+  "price": 76548.378,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 76284.25060113637,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-21T08:56:05.612890+00:00"
+}
+[2026-04-21T08:56:05.6514725Z] finished exit_code=0
+[2026-04-21T09:01:02.1106078Z] starting scheduled BTCUSD paper run
+{
+  "atr": 189.37962159090767,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 76275.87613522727,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-21",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-21T09:01:05.639142+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [],
+  "open_orders": 0,
+  "order": null,
+  "price": 76560.8835,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 76284.25060113637,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-21T09:01:05.640484+00:00"
+}
+[2026-04-21T09:01:05.6764889Z] finished exit_code=0
+[2026-04-21T12:11:34.8007439Z] starting scheduled BTCUSD paper run
+{
+  "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+  "timestamp": "2026-04-21T12:11:35.424305+00:00"
+}
+[2026-04-21T12:11:35.4581127Z] finished exit_code=1
+[2026-04-22T01:47:55.5813583Z] starting scheduled BTCUSD paper run
+{
+  "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'paper-api.alpaca.markets'. (_ssl.c:1010)>",
+  "timestamp": "2026-04-22T01:47:56.923328+00:00"
+}
+[2026-04-22T01:47:57.0477705Z] finished exit_code=1
+[2026-04-22T01:51:02.1965285Z] starting scheduled BTCUSD paper run
+{
+  "error": "Need at least 24 bars, got 23",
+  "timestamp": "2026-04-22T01:51:05.488635+00:00"
+}
+[2026-04-22T01:51:05.5259436Z] finished exit_code=1
+[2026-04-22T01:56:03.5983185Z] starting scheduled BTCUSD paper run
+{
+  "atr": 121.163181818181,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 76100.11045454546,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-22",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-22T01:56:08.325540+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [],
+  "open_orders": 0,
+  "order": null,
+  "price": 76294.6415,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 76284.25060113637,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-22T01:56:08.326626+00:00"
+}
+[2026-04-22T01:56:08.4079090Z] finished exit_code=0
+[2026-04-22T02:01:03.7775170Z] starting scheduled BTCUSD paper run
+{
+  "atr": 120.94056818181839,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 76100.77829545455,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-22",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-22T02:01:07.387599+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [],
+  "open_orders": 0,
+  "order": null,
+  "price": 76316.2525,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 76284.25060113637,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-22T02:01:07.388680+00:00"
+}
+[2026-04-22T02:01:07.5149794Z] finished exit_code=0
+[2026-04-22T02:06:02.7993711Z] starting scheduled BTCUSD paper run
+{
+  "atr": 122.02865909090906,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 76097.51402272728,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-22",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-22T02:06:06.344494+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [],
+  "open_orders": 0,
+  "order": null,
+  "price": 76300.6655,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 76284.25060113637,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-22T02:06:06.345490+00:00"
+}
+[2026-04-22T02:06:06.4161860Z] finished exit_code=0
+[2026-04-22T02:11:02.6817929Z] starting scheduled BTCUSD paper run
+{
+  "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'data.alpaca.markets'. (_ssl.c:1010)>",
+  "timestamp": "2026-04-22T02:11:05.575567+00:00"
+}
+[2026-04-22T02:11:05.6232173Z] finished exit_code=1
+[2026-04-22T02:16:02.9336516Z] starting scheduled BTCUSD paper run
+{
+  "atr": 139.5726590909081,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 76493.98202272727,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-22",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-22T02:16:06.447881+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [
+    "raised_stop_floor_to_76493.98"
+  ],
+  "open_orders": 0,
+  "order": null,
+  "price": 76831.7,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 76493.98202272727,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-22T02:16:06.448882+00:00"
+}
+[2026-04-22T02:16:06.5178036Z] finished exit_code=0
+[2026-04-22T02:21:02.1320772Z] starting scheduled BTCUSD paper run
+{
+  "atr": 164.45038636363594,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 76689.6488409091,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-22",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-22T02:21:05.552987+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [
+    "raised_stop_floor_to_76689.65"
+  ],
+  "open_orders": 0,
+  "order": null,
+  "price": 76945.05,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 76689.6488409091,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-22T02:21:05.554074+00:00"
+}
+[2026-04-22T02:21:05.5796026Z] finished exit_code=0
+[2026-04-22T02:26:01.9858403Z] starting scheduled BTCUSD paper run
+{
+  "atr": 177.97434090909056,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 76649.07697727272,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-22",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-22T02:26:05.197812+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [],
+  "open_orders": 0,
+  "order": null,
+  "price": 77125.75,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 76689.6488409091,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-22T02:26:05.198809+00:00"
+}
+[2026-04-22T02:26:05.2534786Z] finished exit_code=0
+[2026-04-22T02:31:02.5103962Z] starting scheduled BTCUSD paper run
+{
+  "atr": 185.73686363636278,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 76821.00090909092,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-22",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-22T02:31:06.083652+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [
+    "raised_stop_floor_to_76821.00"
+  ],
+  "open_orders": 0,
+  "order": null,
+  "price": 77259.15,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 76821.00090909092,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-22T02:31:06.084703+00:00"
+}
+[2026-04-22T02:31:06.1643651Z] finished exit_code=0
+[2026-04-22T02:36:02.7360053Z] starting scheduled BTCUSD paper run
+{
+  "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'paper-api.alpaca.markets'. (_ssl.c:1010)>",
+  "timestamp": "2026-04-22T02:36:04.689731+00:00"
+}
+[2026-04-22T02:36:04.7278576Z] finished exit_code=1
+[2026-04-22T02:41:02.2165342Z] starting scheduled BTCUSD paper run
+{
+  "atr": 199.3730454545439,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 76780.09236363637,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-22",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-22T02:41:05.593967+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [],
+  "open_orders": 0,
+  "order": null,
+  "price": 77180.51,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 76821.00090909092,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-22T02:41:05.596422+00:00"
+}
+[2026-04-22T02:41:05.6547205Z] finished exit_code=0
+[2026-04-22T02:46:02.0252214Z] starting scheduled BTCUSD paper run
+{
+  "atr": 203.62749999999903,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 76767.32900000001,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-22",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-22T02:46:05.218266+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [],
+  "open_orders": 0,
+  "order": null,
+  "price": 77247.821,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 76821.00090909092,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-22T02:46:05.220264+00:00"
+}
+[2026-04-22T02:46:05.2715926Z] finished exit_code=0
+[2026-04-22T02:51:02.0896246Z] starting scheduled BTCUSD paper run
+{
+  "atr": 206.13929545454448,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 76759.79361363637,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-22",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-22T02:51:05.319254+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [],
+  "open_orders": 0,
+  "order": null,
+  "price": 77259.522,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 76821.00090909092,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-22T02:51:05.320384+00:00"
+}
+[2026-04-22T02:51:05.3575221Z] finished exit_code=0
+[2026-04-22T02:56:02.0303700Z] starting scheduled BTCUSD paper run
+{
+  "atr": 219.9679151361356,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 76841.99625459159,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-22",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-22T02:56:05.251032+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [
+    "raised_stop_floor_to_76842.00"
+  ],
+  "open_orders": 0,
+  "order": null,
+  "price": 77443.57,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 76841.99625459159,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-22T02:56:05.255517+00:00"
+}
+[2026-04-22T02:56:05.2997621Z] finished exit_code=0
+[2026-04-22T03:01:02.0142942Z] starting scheduled BTCUSD paper run
+{
+  "atr": 236.15453331795354,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 77012.47840004614,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-22",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-22T03:01:05.207168+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [
+    "raised_stop_floor_to_77012.48"
+  ],
+  "open_orders": 0,
+  "order": null,
+  "price": 77540.83,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 77012.47840004614,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-22T03:01:05.208170+00:00"
+}
+[2026-04-22T03:01:05.2446672Z] finished exit_code=0
+[2026-04-22T03:06:02.0462595Z] starting scheduled BTCUSD paper run
+{
+  "atr": 238.80662877249944,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 77004.5221136825,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-22",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-22T03:06:05.343760+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [],
+  "open_orders": 0,
+  "order": null,
+  "price": 77635.125,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 77012.47840004614,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-22T03:06:05.344858+00:00"
+}
+[2026-04-22T03:06:05.3991233Z] finished exit_code=0
+[2026-04-22T03:11:02.0588937Z] starting scheduled BTCUSD paper run
+{
+  "atr": 241.73771968159087,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 77006.67934095523,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-22",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-22T03:11:05.350656+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [],
+  "open_orders": 0,
+  "order": null,
+  "price": 77595.168,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 77012.47840004614,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-22T03:11:05.351749+00:00"
+}
+[2026-04-22T03:11:05.3787240Z] finished exit_code=0
+[2026-04-22T03:16:02.0579285Z] starting scheduled BTCUSD paper run
+{
+  "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'paper-api.alpaca.markets'. (_ssl.c:1010)>",
+  "timestamp": "2026-04-22T03:16:02.305874+00:00"
+}
+[2026-04-22T03:16:02.3296160Z] finished exit_code=1
+[2026-04-22T03:21:02.0613384Z] starting scheduled BTCUSD paper run
+{
+  "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'paper-api.alpaca.markets'. (_ssl.c:1010)>",
+  "timestamp": "2026-04-22T03:21:02.253705+00:00"
+}
+[2026-04-22T03:21:02.2733670Z] finished exit_code=1
+[2026-04-22T03:26:02.0712622Z] starting scheduled BTCUSD paper run
+{
+  "atr": 251.16246968159115,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 76978.40509095523,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-22",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-22T03:26:05.332466+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [],
+  "open_orders": 0,
+  "order": null,
+  "price": 77555.03,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 77012.47840004614,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-22T03:26:05.333484+00:00"
+}
+[2026-04-22T03:26:05.3704245Z] finished exit_code=0
+[2026-04-22T03:31:02.0902081Z] starting scheduled BTCUSD paper run
+{
+  "atr": 253.21485604522738,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 76972.24793186432,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-22",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-22T03:31:05.311505+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [],
+  "open_orders": 0,
+  "order": null,
+  "price": 77464.87,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 77012.47840004614,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-22T03:31:05.312520+00:00"
+}
+[2026-04-22T03:31:05.3636058Z] finished exit_code=0
+[2026-04-22T03:36:02.0837043Z] starting scheduled BTCUSD paper run
+{
+  "atr": 251.3391514997731,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 76977.87504550068,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-22",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-22T03:36:05.438511+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [],
+  "open_orders": 0,
+  "order": null,
+  "price": 77457.405,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 77012.47840004614,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-22T03:36:05.439591+00:00"
+}
+[2026-04-22T03:36:05.4898412Z] finished exit_code=0
+[2026-04-22T03:41:02.1006697Z] starting scheduled BTCUSD paper run
+{
+  "atr": 248.0394242270466,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 76987.77422731886,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-22",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-22T03:41:05.342388+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [],
+  "open_orders": 0,
+  "order": null,
+  "price": 77431.781,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 77012.47840004614,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-22T03:41:05.343489+00:00"
+}
+[2026-04-22T03:41:05.3857448Z] finished exit_code=0
+[2026-04-22T03:46:02.7375665Z] starting scheduled BTCUSD paper run
+{
+  "atr": 254.48506059068313,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 76968.43731822795,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-22",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-22T03:46:06.380491+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [],
+  "open_orders": 0,
+  "order": null,
+  "price": 77577.5185,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 77012.47840004614,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-22T03:46:06.381595+00:00"
+}
+[2026-04-22T03:46:06.4509035Z] finished exit_code=0
+[2026-04-22T03:51:02.1478048Z] starting scheduled BTCUSD paper run
+{
+  "atr": 253.4209469543189,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 76971.62965913705,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-22",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-22T03:51:05.391590+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [],
+  "open_orders": 0,
+  "order": null,
+  "price": 77616.36,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 77012.47840004614,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-22T03:51:05.392669+00:00"
+}
+[2026-04-22T03:51:05.4350285Z] finished exit_code=0
+[2026-04-22T03:56:03.1984307Z] starting scheduled BTCUSD paper run
+{
+  "atr": 251.14381059068282,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 76978.46106822796,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-22",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-22T03:56:06.872453+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [],
+  "open_orders": 0,
+  "order": null,
+  "price": 77585.622,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": true,
+  "stop_floor": 77012.47840004614,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-22T03:56:06.917187+00:00"
+}
+[2026-04-22T03:56:06.9819804Z] finished exit_code=0
+[2026-04-22T04:01:02.2298948Z] starting scheduled BTCUSD paper run
+{
+  "atr": 234.77226513613806,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 77027.57570459158,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-22",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-22T04:01:05.621933+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [
+    "raised_stop_floor_to_77027.58"
+  ],
+  "open_orders": 0,
+  "order": null,
+  "price": 77587.9875,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 77027.57570459158,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-22T04:01:05.623802+00:00"
+}
+[2026-04-22T04:01:05.6555557Z] finished exit_code=0
+[2026-04-22T04:06:02.1006307Z] starting scheduled BTCUSD paper run
+{
+  "atr": 210.495492408865,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 77100.4060227734,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-22",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-22T04:06:05.272951+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [
+    "raised_stop_floor_to_77100.41"
+  ],
+  "open_orders": 0,
+  "order": null,
+  "price": 77611.62,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 77100.4060227734,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-22T04:06:05.274044+00:00"
+}
+[2026-04-22T04:06:05.3247334Z] finished exit_code=0
+[2026-04-22T04:11:02.1276151Z] starting scheduled BTCUSD paper run
+{
+  "atr": 195.88662877250118,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 77144.2326136825,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-22",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-22T04:11:05.591273+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [
+    "raised_stop_floor_to_77144.23"
+  ],
+  "open_orders": 0,
+  "order": null,
+  "price": 77631.0005,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 77144.2326136825,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-22T04:11:05.592360+00:00"
+}
+[2026-04-22T04:11:05.6514669Z] finished exit_code=0
+[2026-04-22T04:16:02.1293682Z] starting scheduled BTCUSD paper run
+{
+  "atr": 192.7741742270472,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 77153.56997731885,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-22",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-22T04:16:05.364101+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [
+    "raised_stop_floor_to_77153.57"
+  ],
+  "open_orders": 0,
+  "order": null,
+  "price": 77471.4965,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 77153.56997731885,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-22T04:16:05.365181+00:00"
+}
+[2026-04-22T04:16:05.3888936Z] finished exit_code=0
+[2026-04-22T04:21:02.1325665Z] starting scheduled BTCUSD paper run
+{
+  "atr": 186.213378772502,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 77173.25236368249,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-22",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-22T04:21:05.436232+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [
+    "raised_stop_floor_to_77173.25"
+  ],
+  "open_orders": 0,
+  "order": null,
+  "price": 77377.275,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 77173.25236368249,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-22T04:21:05.436232+00:00"
+}
+[2026-04-22T04:21:05.4781854Z] finished exit_code=0
+[2026-04-22T04:26:02.9053117Z] starting scheduled BTCUSD paper run
+{
+  "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'paper-api.alpaca.markets'. (_ssl.c:1010)>",
+  "timestamp": "2026-04-22T04:26:03.421744+00:00"
+}
+[2026-04-22T04:26:03.4570795Z] finished exit_code=1
+[2026-04-22T04:31:02.1434420Z] starting scheduled BTCUSD paper run
+{
+  "atr": 176.19624240886597,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 77203.3037727734,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-22",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-22T04:31:05.406607+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [
+    "raised_stop_floor_to_77203.30"
+  ],
+  "open_orders": 0,
+  "order": null,
+  "price": 77533.2975,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 77203.3037727734,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-22T04:31:05.407609+00:00"
+}
+[2026-04-22T04:31:05.4573762Z] finished exit_code=0
+[2026-04-22T04:36:02.1802433Z] starting scheduled BTCUSD paper run
+{
+  "atr": 172.2546969543202,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 77215.12840913705,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-22",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-22T04:36:05.513408+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [
+    "raised_stop_floor_to_77215.13"
+  ],
+  "open_orders": 0,
+  "order": null,
+  "price": 77505.6745,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 77215.12840913705,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-22T04:36:05.514491+00:00"
+}
+[2026-04-22T04:36:05.5596394Z] finished exit_code=0
+[2026-04-22T04:41:02.9420629Z] starting scheduled BTCUSD paper run
+{
+  "atr": 165.1626454545476,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 77236.40456363636,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-22",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-22T04:41:06.467215+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [
+    "raised_stop_floor_to_77236.40"
+  ],
+  "open_orders": 0,
+  "order": null,
+  "price": 77693.7435,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 77236.40456363636,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-22T04:41:06.468213+00:00"
+}
+[2026-04-22T04:41:06.5352372Z] finished exit_code=0
+[2026-04-22T04:46:02.8248240Z] starting scheduled BTCUSD paper run
+{
+  "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'paper-api.alpaca.markets'. (_ssl.c:1010)>",
+  "timestamp": "2026-04-22T04:46:03.248932+00:00"
+}
+[2026-04-22T04:46:03.2849692Z] finished exit_code=1
+[2026-04-22T04:51:02.3000426Z] starting scheduled BTCUSD paper run
+{
+  "atr": 137.62284090909287,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 77319.02397727272,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-22",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-22T04:51:05.515799+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [
+    "raised_stop_floor_to_77319.02"
+  ],
+  "open_orders": 0,
+  "order": null,
+  "price": 77526.9,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 77319.02397727272,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-22T04:51:05.516887+00:00"
+}
+[2026-04-22T04:51:05.5699760Z] finished exit_code=0
+[2026-04-22T04:56:02.4366287Z] starting scheduled BTCUSD paper run
+{
+  "atr": 132.05647727272893,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 77321.26556818181,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-22",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-22T04:56:05.728344+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [
+    "raised_stop_floor_to_77321.27"
+  ],
+  "open_orders": 0,
+  "order": null,
+  "price": 77485.098,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 77321.26556818181,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-22T04:56:05.729433+00:00"
+}
+[2026-04-22T04:56:05.7819634Z] finished exit_code=0
+[2026-04-22T05:01:02.1967253Z] starting scheduled BTCUSD paper run
+{
+  "atr": 132.10981818182006,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 77321.10554545454,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-22",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-22T05:01:05.388695+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [],
+  "open_orders": 0,
+  "order": null,
+  "price": 77502.8935,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 77321.26556818181,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-22T05:01:05.390878+00:00"
+}
+[2026-04-22T05:01:05.4240334Z] finished exit_code=0
+[2026-04-22T05:06:02.8976516Z] starting scheduled BTCUSD paper run
+{
+  "atr": 128.06525000000164,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 77333.23925,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-22",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-22T05:06:30.751794+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [
+    "raised_stop_floor_to_77333.24"
+  ],
+  "open_orders": 0,
+  "order": null,
+  "price": 77492.573,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 77333.23925,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-22T05:06:30.755211+00:00"
+}
+[2026-04-22T05:06:30.8569206Z] finished exit_code=0
+[2026-04-22T05:11:02.8652727Z] starting scheduled BTCUSD paper run
+{
+  "atr": 128.8245000000018,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 77330.96149999999,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-22",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-22T05:11:06.354034+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [],
+  "open_orders": 0,
+  "order": null,
+  "price": 77564.364,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 77333.23925,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-22T05:11:06.355030+00:00"
+}
+[2026-04-22T05:11:06.4292819Z] finished exit_code=0
+[2026-04-22T05:16:02.3565459Z] starting scheduled BTCUSD paper run
+{
+  "atr": 126.99345454545586,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 77336.45463636363,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-22",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-22T05:16:05.701923+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [
+    "raised_stop_floor_to_77336.45"
+  ],
+  "open_orders": 0,
+  "order": null,
+  "price": 77545.3,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 77336.45463636363,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-22T05:16:05.703013+00:00"
+}
+[2026-04-22T05:16:05.7508652Z] finished exit_code=0
+[2026-04-22T05:21:02.2287450Z] starting scheduled BTCUSD paper run
+{
+  "atr": 146.49152272727358,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 77563.00493181818,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-22",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-22T05:21:05.444713+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [
+    "raised_stop_floor_to_77563.00"
+  ],
+  "open_orders": 0,
+  "order": null,
+  "price": 77945.0425,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 77563.00493181818,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-22T05:21:05.445801+00:00"
+}
+[2026-04-22T05:21:05.5004001Z] finished exit_code=0
+[2026-04-22T05:26:02.9121919Z] starting scheduled BTCUSD paper run
+{
+  "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'paper-api.alpaca.markets'. (_ssl.c:1010)>",
+  "timestamp": "2026-04-22T05:26:03.459667+00:00"
+}
+[2026-04-22T05:26:03.4983679Z] finished exit_code=1
+[2026-04-22T05:31:01.9125832Z] starting scheduled BTCUSD paper run
+{
+  "atr": 174.04447727272782,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 77911.46006818183,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-22",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-22T05:31:05.393903+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [
+    "raised_stop_floor_to_77911.46"
+  ],
+  "open_orders": 0,
+  "order": null,
+  "price": 78252.262,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 77911.46006818183,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-22T05:31:05.394898+00:00"
+}
+[2026-04-22T05:31:05.4640470Z] finished exit_code=0
+[2026-04-22T05:36:01.9311049Z] starting scheduled BTCUSD paper run
+{
+  "atr": 176.57677272727267,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 77903.86318181819,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-22",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-22T05:36:05.506158+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [],
+  "open_orders": 0,
+  "order": null,
+  "price": 78246.905,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 77911.46006818183,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-22T05:36:05.507154+00:00"
+}
+[2026-04-22T05:36:05.5765643Z] finished exit_code=0
+[2026-04-22T05:41:01.5327513Z] starting scheduled BTCUSD paper run
+{
+  "atr": 190.0351590909089,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 77863.48802272728,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-22",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-22T05:41:05.071819+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [],
+  "open_orders": 0,
+  "order": null,
+  "price": 78251.5185,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 77911.46006818183,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-22T05:41:05.072860+00:00"
+}
+[2026-04-22T05:41:05.1334291Z] finished exit_code=0
+[2026-04-22T05:46:01.2724259Z] starting scheduled BTCUSD paper run
+{
+  "atr": 191.65770454545418,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 77858.62038636365,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-22",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-22T05:46:04.673700+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [],
+  "open_orders": 0,
+  "order": null,
+  "price": 78113.45,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 77911.46006818183,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-22T05:46:04.675909+00:00"
+}
+[2026-04-22T05:46:04.7251203Z] finished exit_code=0
+[2026-04-22T05:51:01.9401917Z] starting scheduled BTCUSD paper run
+{
+  "atr": 192.7162045454547,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 77855.44488636364,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-22",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-22T05:51:05.401870+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [],
+  "open_orders": 0,
+  "order": null,
+  "price": 78048.222,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 77911.46006818183,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-22T05:51:05.402867+00:00"
+}
+[2026-04-22T05:51:05.4688267Z] finished exit_code=0
+[2026-04-22T05:56:02.0276823Z] starting scheduled BTCUSD paper run
+{
+  "atr": 200.23120454545412,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 77832.89988636364,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-22",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-22T05:56:05.645860+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [],
+  "open_orders": 0,
+  "order": null,
+  "price": 78170.23,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 77911.46006818183,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-22T05:56:05.646879+00:00"
+}
+[2026-04-22T05:56:05.7353839Z] finished exit_code=0
+[2026-04-22T06:01:02.0805068Z] starting scheduled BTCUSD paper run
+{
+  "atr": 198.7105909090903,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 77837.46172727273,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-22",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-22T06:01:05.795203+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [],
+  "open_orders": 0,
+  "order": null,
+  "price": 77964.6685,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 77911.46006818183,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-22T06:01:05.797715+00:00"
+}
+[2026-04-22T06:01:05.8997686Z] finished exit_code=0
+[2026-04-22T06:06:02.0079581Z] starting scheduled BTCUSD paper run
+{
+  "atr": 196.58949999999922,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 77843.82500000001,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-22",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-22T06:06:05.436825+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [],
+  "open_orders": 0,
+  "order": null,
+  "price": 77967.35,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 77911.46006818183,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-22T06:06:05.437821+00:00"
+}
+[2026-04-22T06:06:05.4997649Z] finished exit_code=0
+[2026-04-22T06:11:01.9363705Z] starting scheduled BTCUSD paper run
+{
+  "atr": 193.37004545454428,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 77853.48336363638,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-22",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-22T06:11:05.697831+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [],
+  "open_orders": 0,
+  "order": null,
+  "price": 77929.959,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 77911.46006818183,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-22T06:11:05.698884+00:00"
+}
+[2026-04-22T06:11:05.7680068Z] finished exit_code=0
+[2026-04-22T06:16:01.3241530Z] starting scheduled BTCUSD paper run
+{
+  "atr": 194.33927272727172,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 77850.57568181818,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-22",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-22T06:16:04.544070+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [],
+  "open_orders": 0,
+  "order": null,
+  "price": 77992.645,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 77911.46006818183,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-22T06:16:04.544070+00:00"
+}
+[2026-04-22T06:16:04.5964100Z] finished exit_code=0
+[2026-04-22T06:21:02.1890585Z] starting scheduled BTCUSD paper run
+{
+  "atr": 193.95022727272655,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 77851.74281818182,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-22",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-22T06:21:07.589470+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [],
+  "open_orders": 0,
+  "order": null,
+  "price": 78022.8775,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 77911.46006818183,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-22T06:21:07.590466+00:00"
+}
+[2026-04-22T06:21:07.6523863Z] finished exit_code=0
+[2026-04-22T06:26:01.3630770Z] starting scheduled BTCUSD paper run
+{
+  "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'paper-api.alpaca.markets'. (_ssl.c:1010)>",
+  "timestamp": "2026-04-22T06:26:02.322854+00:00"
+}
+[2026-04-22T06:26:02.3441536Z] finished exit_code=1
+[2026-04-22T06:31:01.3352807Z] starting scheduled BTCUSD paper run
+{
+  "atr": 188.63222727272594,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 77867.69681818182,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-22",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-22T06:31:04.783109+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [],
+  "open_orders": 0,
+  "order": null,
+  "price": 77994.932,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 77911.46006818183,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-22T06:31:04.784148+00:00"
+}
+[2026-04-22T06:31:04.8289273Z] finished exit_code=0
+[2026-04-22T06:36:02.2119142Z] starting scheduled BTCUSD paper run
+{
+  "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'data.alpaca.markets'. (_ssl.c:1010)>",
+  "timestamp": "2026-04-22T06:36:04.935984+00:00"
+}
+[2026-04-22T06:36:04.9806709Z] finished exit_code=1
+[2026-04-22T06:41:02.0762865Z] starting scheduled BTCUSD paper run
+{
+  "atr": 210.86679545454336,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 77807.75961363637,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-22",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-22T06:41:05.878999+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [],
+  "open_orders": 0,
+  "order": null,
+  "price": 77960.81,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 77911.46006818183,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-22T06:41:05.880094+00:00"
+}
+[2026-04-22T06:41:05.9444625Z] finished exit_code=0
+[2026-04-22T06:46:01.9911935Z] starting scheduled BTCUSD paper run
+{
+  "atr": 212.57877272727043,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 77802.6236818182,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-22",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-22T06:46:05.770208+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [],
+  "open_orders": 0,
+  "order": null,
+  "price": 77966.855,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 77911.46006818183,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-22T06:46:05.771204+00:00"
+}
+[2026-04-22T06:46:05.8404287Z] finished exit_code=0
+[2026-04-22T06:51:01.3555350Z] starting scheduled BTCUSD paper run
+{
+  "atr": 211.48504545454355,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 77805.90486363637,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-22",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-22T06:51:04.736369+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [],
+  "open_orders": 0,
+  "order": null,
+  "price": 78008.9,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 77911.46006818183,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-22T06:51:04.737459+00:00"
+}
+[2026-04-22T06:51:04.7928316Z] finished exit_code=0
+[2026-04-22T06:56:01.9056519Z] starting scheduled BTCUSD paper run
+{
+  "atr": 209.66704545454294,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 77811.35886363637,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-22",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-22T06:56:05.618279+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [],
+  "open_orders": 0,
+  "order": null,
+  "price": 77991.51,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 77911.46006818183,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-22T06:56:05.619431+00:00"
+}
+[2026-04-22T06:56:05.6832618Z] finished exit_code=0
+[2026-04-22T07:01:02.1366933Z] starting scheduled BTCUSD paper run
+{
+  "atr": 210.7449772727255,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 77808.12506818182,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-22",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-22T07:01:05.833197+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [],
+  "open_orders": 0,
+  "order": null,
+  "price": 77991.31,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 77911.46006818183,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-22T07:01:05.834208+00:00"
+}
+[2026-04-22T07:01:05.9015089Z] finished exit_code=0
+[2026-04-22T07:06:01.3642593Z] starting scheduled BTCUSD paper run
+{
+  "atr": 189.2882272727253,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 77872.49531818183,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-22",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-22T07:06:04.746187+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [],
+  "open_orders": 0,
+  "order": null,
+  "price": 78045.1175,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 77911.46006818183,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-22T07:06:04.747291+00:00"
+}
+[2026-04-22T07:06:04.7996094Z] finished exit_code=0
+[2026-04-22T07:11:01.7235847Z] starting scheduled BTCUSD paper run
+{
+  "atr": 172.18093181818074,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 77923.81720454546,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-22",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-22T07:11:05.378091+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [
+    "raised_stop_floor_to_77923.82"
+  ],
+  "open_orders": 0,
+  "order": null,
+  "price": 78020.7,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 77923.81720454546,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-22T07:11:05.379101+00:00"
+}
+[2026-04-22T07:11:05.4256507Z] finished exit_code=0
+[2026-04-22T07:16:02.0906628Z] starting scheduled BTCUSD paper run
+{
+  "atr": 162.23809090909015,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 77953.64572727273,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-22",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-22T07:16:05.858539+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [
+    "raised_stop_floor_to_77953.65"
+  ],
+  "open_orders": 0,
+  "order": null,
+  "price": 78108.701,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 77953.64572727273,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-22T07:16:05.859610+00:00"
+}
+[2026-04-22T07:16:05.9226232Z] finished exit_code=0
+[2026-04-22T07:21:01.4073301Z] starting scheduled BTCUSD paper run
+{
+  "error": "POST https://paper-api.alpaca.markets/v2/orders failed with HTTP 422: {\"code\":40010001,\"message\":\"qty must be \\u003e 0\"}",
+  "timestamp": "2026-04-22T07:21:05.578853+00:00"
+}
+[2026-04-22T07:21:05.6564293Z] finished exit_code=1
+[2026-04-22T07:26:03.5599396Z] starting scheduled BTCUSD paper run
+{
+  "error": "POST https://paper-api.alpaca.markets/v2/orders failed with HTTP 422: {\"code\":40010001,\"message\":\"qty must be \\u003e 0\"}",
+  "timestamp": "2026-04-22T07:26:08.221856+00:00"
+}
+[2026-04-22T07:26:08.3706011Z] finished exit_code=1
+[2026-04-22T07:31:02.2831953Z] starting scheduled BTCUSD paper run
+{
+  "error": "POST https://paper-api.alpaca.markets/v2/orders failed with HTTP 422: {\"code\":40010001,\"message\":\"qty must be \\u003e 0\"}",
+  "timestamp": "2026-04-22T07:31:06.860694+00:00"
+}
+[2026-04-22T07:31:06.9319250Z] finished exit_code=1
+[2026-04-22T07:36:02.6275271Z] starting scheduled BTCUSD paper run
+{
+  "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'paper-api.alpaca.markets'. (_ssl.c:1010)>",
+  "timestamp": "2026-04-22T07:36:04.692753+00:00"
+}
+[2026-04-22T07:36:04.7465886Z] finished exit_code=1
+[2026-04-22T07:41:02.2242263Z] starting scheduled BTCUSD paper run
+{
+  "error": "POST https://paper-api.alpaca.markets/v2/orders failed with HTTP 422: {\"code\":40010001,\"message\":\"qty must be \\u003e 0\"}",
+  "timestamp": "2026-04-22T07:41:06.816934+00:00"
+}
+[2026-04-22T07:41:06.8960001Z] finished exit_code=1
+[2026-04-22T07:46:01.4162835Z] starting scheduled BTCUSD paper run
+{
+  "atr": 140.34495454545356,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 78019.32513636364,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-22",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-22T07:46:04.882091+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [
+    "raised_stop_floor_to_78019.33"
+  ],
+  "open_orders": 0,
+  "order": null,
+  "price": 78092.7,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 78019.32513636364,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-22T07:46:04.884172+00:00"
+}
+[2026-04-22T07:46:04.9384584Z] finished exit_code=0
+[2026-04-22T07:51:01.9795605Z] starting scheduled BTCUSD paper run
+{
+  "atr": 142.08854545454497,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 78014.09436363637,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-22",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-22T07:51:05.645988+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [],
+  "open_orders": 0,
+  "order": null,
+  "price": 78034.393,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 78019.32513636364,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-22T07:51:05.648830+00:00"
+}
+[2026-04-22T07:51:05.7117399Z] finished exit_code=0
+[2026-04-22T07:56:01.4330064Z] starting scheduled BTCUSD paper run
+{
+  "error": "POST https://paper-api.alpaca.markets/v2/orders failed with HTTP 422: {\"code\":40010001,\"message\":\"qty must be \\u003e 0\"}",
+  "timestamp": "2026-04-22T07:56:05.581714+00:00"
+}
+[2026-04-22T07:56:05.6390720Z] finished exit_code=1
+[2026-04-22T08:01:01.4790414Z] starting scheduled BTCUSD paper run
+{
+  "atr": 145.541954545453,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 78003.73413636364,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-22",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-22T08:01:05.672739+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [],
+  "open_orders": 0,
+  "order": null,
+  "price": 78080.05,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 78019.32513636364,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-22T08:01:05.673839+00:00"
+}
+[2026-04-22T08:01:05.7256792Z] finished exit_code=0
+[2026-04-22T08:06:01.5859023Z] starting scheduled BTCUSD paper run
+{
+  "atr": 147.64895454545265,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 77997.41313636364,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-22",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-22T08:06:04.959002+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [],
+  "open_orders": 0,
+  "order": null,
+  "price": 78103.973,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 78019.32513636364,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-22T08:06:04.959998+00:00"
+}
+[2026-04-22T08:06:05.0098017Z] finished exit_code=0
+[2026-04-22T08:11:01.4997750Z] starting scheduled BTCUSD paper run
+{
+  "atr": 151.47777272727134,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 77985.9266818182,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-22",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-22T08:11:05.072116+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [],
+  "open_orders": 0,
+  "order": null,
+  "price": 78153.0725,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 78019.32513636364,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-22T08:11:05.074191+00:00"
+}
+[2026-04-22T08:11:05.1293758Z] finished exit_code=0
+[2026-04-22T08:16:01.7161405Z] starting scheduled BTCUSD paper run
+{
+  "atr": 152.09693181818014,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 77984.06920454546,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-22",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-22T08:16:05.439862+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [],
+  "open_orders": 0,
+  "order": null,
+  "price": 78161.439,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 78019.32513636364,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-22T08:16:05.442735+00:00"
+}
+[2026-04-22T08:16:05.4931586Z] finished exit_code=0
+[2026-04-22T08:21:02.2917041Z] starting scheduled BTCUSD paper run
+{
+  "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'paper-api.alpaca.markets'. (_ssl.c:1010)>",
+  "timestamp": "2026-04-22T08:21:02.730751+00:00"
+}
+[2026-04-22T08:21:02.7669068Z] finished exit_code=1
+[2026-04-22T08:26:02.2909150Z] starting scheduled BTCUSD paper run
+{
+  "error": "POST https://paper-api.alpaca.markets/v2/orders failed with HTTP 422: {\"code\":40010001,\"message\":\"qty must be \\u003e 0\"}",
+  "timestamp": "2026-04-22T08:26:06.764179+00:00"
+}
+[2026-04-22T08:26:06.8663239Z] finished exit_code=1
+[2026-04-22T08:31:01.6963799Z] starting scheduled BTCUSD paper run
+{
+  "atr": 141.04452272727212,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 77819.06643181818,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-22",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-22T08:31:05.247238+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [],
+  "open_orders": 0,
+  "order": null,
+  "price": 78042.925,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 78019.32513636364,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-22T08:31:05.251309+00:00"
+}
+[2026-04-22T08:31:05.3009158Z] finished exit_code=0
+[2026-04-22T08:36:02.2215326Z] starting scheduled BTCUSD paper run
+{
+  "error": "POST https://paper-api.alpaca.markets/v2/orders failed with HTTP 422: {\"code\":40010001,\"message\":\"qty must be \\u003e 0\"}",
+  "timestamp": "2026-04-22T08:36:06.916484+00:00"
+}
+[2026-04-22T08:36:06.9892104Z] finished exit_code=1
+[2026-04-22T08:41:01.5290591Z] starting scheduled BTCUSD paper run
+{
+  "atr": 138.23043181818173,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 77827.50870454546,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-22",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-22T08:41:04.907991+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [],
+  "open_orders": 0,
+  "order": null,
+  "price": 78022.6685,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 78019.32513636364,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-22T08:41:04.909021+00:00"
+}
+[2026-04-22T08:41:04.9646046Z] finished exit_code=0
+[2026-04-22T08:46:01.5397122Z] starting scheduled BTCUSD paper run
+{
+  "error": "POST https://paper-api.alpaca.markets/v2/orders failed with HTTP 422: {\"code\":40010001,\"message\":\"qty must be \\u003e 0\"}",
+  "timestamp": "2026-04-22T08:46:05.791110+00:00"
+}
+[2026-04-22T08:46:05.8368973Z] finished exit_code=1
+[2026-04-22T08:51:02.3281186Z] starting scheduled BTCUSD paper run
+{
+  "error": "POST https://paper-api.alpaca.markets/v2/orders failed with HTTP 422: {\"code\":40010001,\"message\":\"qty must be \\u003e 0\"}",
+  "timestamp": "2026-04-22T08:51:06.798704+00:00"
+}
+[2026-04-22T08:51:06.8910624Z] finished exit_code=1
+[2026-04-22T08:56:02.3160002Z] starting scheduled BTCUSD paper run
+{
+  "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'data.alpaca.markets'. (_ssl.c:1010)>",
+  "timestamp": "2026-04-22T08:56:05.067243+00:00"
+}
+[2026-04-22T08:56:05.1130097Z] finished exit_code=1
+[2026-04-22T09:01:01.5645167Z] starting scheduled BTCUSD paper run
+{
+  "error": "POST https://paper-api.alpaca.markets/v2/orders failed with HTTP 422: {\"code\":40010001,\"message\":\"qty must be \\u003e 0\"}",
+  "timestamp": "2026-04-22T09:01:05.787558+00:00"
+}
+[2026-04-22T09:01:05.8430505Z] finished exit_code=1
+[2026-04-22T09:06:02.5518132Z] starting scheduled BTCUSD paper run
+{
+  "error": "POST https://paper-api.alpaca.markets/v2/orders failed with HTTP 422: {\"code\":40010001,\"message\":\"qty must be \\u003e 0\"}",
+  "timestamp": "2026-04-22T09:06:07.087969+00:00"
+}
+[2026-04-22T09:06:07.1659957Z] finished exit_code=1
+[2026-04-23T00:44:09.7343778Z] starting scheduled BTCUSD paper run
+{
+  "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'paper-api.alpaca.markets'. (_ssl.c:1010)>",
+  "timestamp": "2026-04-23T00:44:10.363915+00:00"
+}
+[2026-04-23T00:44:10.4159619Z] finished exit_code=1
+[2026-04-23T00:48:27.9852372Z] starting scheduled BTCUSD paper run
+{
+  "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'paper-api.alpaca.markets'. (_ssl.c:1010)>",
+  "timestamp": "2026-04-23T00:48:28.386649+00:00"
+}
+[2026-04-23T00:48:28.4304891Z] finished exit_code=1
+[2026-04-23T00:51:00.9779019Z] starting scheduled BTCUSD paper run
+{
+  "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'paper-api.alpaca.markets'. (_ssl.c:1010)>",
+  "timestamp": "2026-04-23T00:51:01.302591+00:00"
+}
+[2026-04-23T00:51:01.3508924Z] finished exit_code=1
+[2026-04-23T01:01:01.5643567Z] starting scheduled BTCUSD paper run
+{
+  "error": "Need at least 24 bars, got 13",
+  "timestamp": "2026-04-23T01:01:06.174799+00:00"
+}
+[2026-04-23T01:01:06.2649150Z] finished exit_code=1
+[2026-04-23T01:11:00.9569331Z] starting scheduled BTCUSD paper run
+{
+  "error": "Need at least 24 bars, got 15",
+  "timestamp": "2026-04-23T01:11:05.002307+00:00"
+}
+[2026-04-23T01:11:05.0712462Z] finished exit_code=1
+[2026-04-23T01:21:02.9877937Z] starting scheduled BTCUSD paper run
+{
+  "error": "Need at least 24 bars, got 17",
+  "timestamp": "2026-04-23T01:21:08.765578+00:00"
+}
+[2026-04-23T01:21:08.8534932Z] finished exit_code=1
+[2026-04-23T01:31:01.3071930Z] starting scheduled BTCUSD paper run
+{
+  "error": "Need at least 24 bars, got 19",
+  "timestamp": "2026-04-23T01:31:05.578250+00:00"
+}
+[2026-04-23T01:31:05.6436292Z] finished exit_code=1
+[2026-04-23T01:41:01.0079461Z] starting scheduled BTCUSD paper run
+{
+  "error": "Need at least 24 bars, got 21",
+  "timestamp": "2026-04-23T01:41:04.629915+00:00"
+}
+[2026-04-23T01:41:04.6944008Z] finished exit_code=1
+[2026-04-23T01:51:01.1686687Z] starting scheduled BTCUSD paper run
+{
+  "error": "Need at least 24 bars, got 23",
+  "timestamp": "2026-04-23T01:51:04.592060+00:00"
+}
+[2026-04-23T01:51:04.6565742Z] finished exit_code=1
+[2026-04-23T02:01:01.3961406Z] starting scheduled BTCUSD paper run
+{
+  "atr": 210.49944318181886,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 77949.22667045455,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-23",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-23T02:01:05.079654+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [],
+  "open_orders": 0,
+  "order": null,
+  "price": 78362.6745,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 78019.32513636364,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-23T02:01:05.080761+00:00"
+}
+[2026-04-23T02:01:05.1749114Z] finished exit_code=0
+[2026-04-23T02:11:01.5136844Z] starting scheduled BTCUSD paper run
+{
+  "atr": 172.02623863636373,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 78064.64628409091,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-23",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-23T02:11:05.175604+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [
+    "raised_stop_floor_to_78064.65"
+  ],
+  "open_orders": 0,
+  "order": null,
+  "price": 78296.215,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 78064.64628409091,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-23T02:11:05.176600+00:00"
+}
+[2026-04-23T02:11:05.2446665Z] finished exit_code=0
+[2026-04-23T02:21:01.9104190Z] starting scheduled BTCUSD paper run
+{
+  "atr": 162.93184659090846,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 78089.42446022728,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-23",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-23T02:21:05.424158+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [
+    "raised_stop_floor_to_78089.42"
+  ],
+  "open_orders": 0,
+  "order": null,
+  "price": 78197.305,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 78089.42446022728,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-23T02:21:05.426980+00:00"
+}
+[2026-04-23T02:21:05.4771887Z] finished exit_code=0
+[2026-04-23T02:31:01.9001845Z] starting scheduled BTCUSD paper run
+{
+  "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'data.alpaca.markets'. (_ssl.c:1010)>",
+  "timestamp": "2026-04-23T02:31:04.797323+00:00"
+}
+[2026-04-23T02:31:04.8430569Z] finished exit_code=1
+[2026-04-23T02:41:02.1134360Z] starting scheduled BTCUSD paper run
+{
+  "error": "POST https://paper-api.alpaca.markets/v2/orders failed with HTTP 422: {\"code\":40010001,\"message\":\"qty must be \\u003e 0\"}",
+  "timestamp": "2026-04-23T02:41:07.280161+00:00"
+}
+[2026-04-23T02:41:07.3408323Z] finished exit_code=1
+[2026-04-23T02:51:01.5369889Z] starting scheduled BTCUSD paper run
+{
+  "error": "POST https://paper-api.alpaca.markets/v2/orders failed with HTTP 422: {\"code\":40010001,\"message\":\"qty must be \\u003e 0\"}",
+  "timestamp": "2026-04-23T02:51:05.828758+00:00"
+}
+[2026-04-23T02:51:05.9067569Z] finished exit_code=1
+[2026-04-23T03:01:01.4429533Z] starting scheduled BTCUSD paper run
+{
+  "error": "POST https://paper-api.alpaca.markets/v2/orders failed with HTTP 422: {\"code\":40010001,\"message\":\"qty must be \\u003e 0\"}",
+  "timestamp": "2026-04-23T03:01:05.824156+00:00"
+}
+[2026-04-23T03:01:05.8970951Z] finished exit_code=1
+[2026-04-23T03:11:01.4972847Z] starting scheduled BTCUSD paper run
+{
+  "error": "POST https://paper-api.alpaca.markets/v2/orders failed with HTTP 422: {\"code\":40010001,\"message\":\"qty must be \\u003e 0\"}",
+  "timestamp": "2026-04-23T03:11:05.725132+00:00"
+}
+[2026-04-23T03:11:05.8023038Z] finished exit_code=1
+[2026-04-23T03:21:00.7919004Z] starting scheduled BTCUSD paper run
+{
+  "error": "POST https://paper-api.alpaca.markets/v2/orders failed with HTTP 422: {\"code\":40010001,\"message\":\"qty must be \\u003e 0\"}",
+  "timestamp": "2026-04-23T03:21:04.727457+00:00"
+}
+[2026-04-23T03:21:04.7917990Z] finished exit_code=1
+[2026-04-23T03:31:01.6327844Z] starting scheduled BTCUSD paper run
+{
+  "error": "POST https://paper-api.alpaca.markets/v2/orders failed with HTTP 422: {\"code\":40010001,\"message\":\"qty must be \\u003e 0\"}",
+  "timestamp": "2026-04-23T03:31:06.002088+00:00"
+}
+[2026-04-23T03:31:06.0627571Z] finished exit_code=1
+[2026-04-23T03:41:01.4918539Z] starting scheduled BTCUSD paper run
+{
+  "error": "POST https://paper-api.alpaca.markets/v2/orders failed with HTTP 422: {\"code\":40010001,\"message\":\"qty must be \\u003e 0\"}",
+  "timestamp": "2026-04-23T03:41:06.065362+00:00"
+}
+[2026-04-23T03:41:06.1461975Z] finished exit_code=1
+[2026-04-23T03:51:01.6235340Z] starting scheduled BTCUSD paper run
+{
+  "error": "POST https://paper-api.alpaca.markets/v2/orders failed with HTTP 422: {\"code\":40010001,\"message\":\"qty must be \\u003e 0\"}",
+  "timestamp": "2026-04-23T03:51:05.817708+00:00"
+}
+[2026-04-23T03:51:05.8905195Z] finished exit_code=1
+[2026-04-23T04:01:01.6934143Z] starting scheduled BTCUSD paper run
+{
+  "error": "POST https://paper-api.alpaca.markets/v2/orders failed with HTTP 422: {\"code\":40010001,\"message\":\"qty must be \\u003e 0\"}",
+  "timestamp": "2026-04-23T04:01:06.062733+00:00"
+}
+[2026-04-23T04:01:06.1299775Z] finished exit_code=1
+[2026-04-23T04:11:01.6231184Z] starting scheduled BTCUSD paper run
+{
+  "error": "POST https://paper-api.alpaca.markets/v2/orders failed with HTTP 422: {\"code\":40010001,\"message\":\"qty must be \\u003e 0\"}",
+  "timestamp": "2026-04-23T04:11:05.781983+00:00"
+}
+[2026-04-23T04:11:05.8540950Z] finished exit_code=1
+[2026-04-23T04:21:01.4567896Z] starting scheduled BTCUSD paper run
+{
+  "error": "POST https://paper-api.alpaca.markets/v2/orders failed with HTTP 422: {\"code\":40010001,\"message\":\"qty must be \\u003e 0\"}",
+  "timestamp": "2026-04-23T04:21:05.601624+00:00"
+}
+[2026-04-23T04:21:05.6785998Z] finished exit_code=1
+[2026-04-23T04:31:01.5681226Z] starting scheduled BTCUSD paper run
+{
+  "error": "POST https://paper-api.alpaca.markets/v2/orders failed with HTTP 422: {\"code\":40010001,\"message\":\"qty must be \\u003e 0\"}",
+  "timestamp": "2026-04-23T04:31:05.732442+00:00"
+}
+[2026-04-23T04:31:05.7731069Z] finished exit_code=1
+[2026-04-23T04:41:01.7384543Z] starting scheduled BTCUSD paper run
+{
+  "error": "POST https://paper-api.alpaca.markets/v2/orders failed with HTTP 422: {\"code\":40010001,\"message\":\"qty must be \\u003e 0\"}",
+  "timestamp": "2026-04-23T04:41:06.066686+00:00"
+}
+[2026-04-23T04:41:06.1410775Z] finished exit_code=1
+[2026-04-23T04:51:01.6163672Z] starting scheduled BTCUSD paper run
+{
+  "error": "POST https://paper-api.alpaca.markets/v2/orders failed with HTTP 422: {\"code\":40010001,\"message\":\"qty must be \\u003e 0\"}",
+  "timestamp": "2026-04-23T04:51:05.938967+00:00"
+}
+[2026-04-23T04:51:06.0177446Z] finished exit_code=1
+[2026-04-23T05:01:02.4751332Z] starting scheduled BTCUSD paper run
+{
+  "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'paper-api.alpaca.markets'. (_ssl.c:1010)>",
+  "timestamp": "2026-04-23T05:01:04.156442+00:00"
+}
+[2026-04-23T05:01:04.2637977Z] finished exit_code=1
+[2026-04-23T05:11:00.7232457Z] starting scheduled BTCUSD paper run
+{
+  "error": "POST https://paper-api.alpaca.markets/v2/orders failed with HTTP 422: {\"code\":40010001,\"message\":\"qty must be \\u003e 0\"}",
+  "timestamp": "2026-04-23T05:11:04.721225+00:00"
+}
+[2026-04-23T05:11:04.7735042Z] finished exit_code=1
+[2026-04-23T05:21:00.7603402Z] starting scheduled BTCUSD paper run
+{
+  "error": "POST https://paper-api.alpaca.markets/v2/orders failed with HTTP 422: {\"code\":40010001,\"message\":\"qty must be \\u003e 0\"}",
+  "timestamp": "2026-04-23T05:21:04.750756+00:00"
+}
+[2026-04-23T05:21:04.8140043Z] finished exit_code=1
+[2026-04-23T05:31:00.7613490Z] starting scheduled BTCUSD paper run
+{
+  "error": "POST https://paper-api.alpaca.markets/v2/orders failed with HTTP 422: {\"code\":40010001,\"message\":\"qty must be \\u003e 0\"}",
+  "timestamp": "2026-04-23T05:31:04.816558+00:00"
+}
+[2026-04-23T05:31:04.8708792Z] finished exit_code=1
+[2026-04-23T05:41:00.7357821Z] starting scheduled BTCUSD paper run
+{
+  "error": "POST https://paper-api.alpaca.markets/v2/orders failed with HTTP 422: {\"code\":40010001,\"message\":\"qty must be \\u003e 0\"}",
+  "timestamp": "2026-04-23T05:41:04.636955+00:00"
+}
+[2026-04-23T05:41:04.7013668Z] finished exit_code=1
+[2026-04-23T05:51:01.9441718Z] starting scheduled BTCUSD paper run
+{
+  "error": "POST https://paper-api.alpaca.markets/v2/orders failed with HTTP 422: {\"code\":40010001,\"message\":\"qty must be \\u003e 0\"}",
+  "timestamp": "2026-04-23T05:51:06.218485+00:00"
+}
+[2026-04-23T05:51:06.2954534Z] finished exit_code=1
+[2026-04-23T06:01:01.5063549Z] starting scheduled BTCUSD paper run
+{
+  "atr": 126.04300056818465,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 77742.77001079544,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-23",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-23T06:01:05.065924+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [],
+  "open_orders": 0,
+  "order": null,
+  "price": 78095.665,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": true,
+  "stop_floor": 78089.42446022728,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-23T06:01:05.193507+00:00"
+}
+[2026-04-23T06:01:05.2991112Z] finished exit_code=0
+[2026-04-23T06:11:00.9691428Z] starting scheduled BTCUSD paper run
+{
+  "atr": 126.23247784091059,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 77928.48456647727,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-23",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-23T06:11:04.454526+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [],
+  "open_orders": 0,
+  "order": null,
+  "price": 78279.95,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 78089.42446022728,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-23T06:11:04.454526+00:00"
+}
+[2026-04-23T06:11:04.4932299Z] finished exit_code=0
+[2026-04-23T06:21:00.7660845Z] starting scheduled BTCUSD paper run
+{
+  "atr": 126.94100000000154,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 77934.277,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-23",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-23T06:21:04.164567+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [],
+  "open_orders": 0,
+  "order": null,
+  "price": 78210.91,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 78089.42446022728,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-23T06:21:04.165647+00:00"
+}
+[2026-04-23T06:21:04.1906910Z] finished exit_code=0
+[2026-04-23T06:31:00.8235155Z] starting scheduled BTCUSD paper run
+{
+  "atr": 131.418181818183,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 77992.74545454545,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-23",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-23T06:31:04.077990+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [],
+  "open_orders": 0,
+  "order": null,
+  "price": 78324.4755,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 78089.42446022728,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-23T06:31:04.079460+00:00"
+}
+[2026-04-23T06:31:04.1323791Z] finished exit_code=0
+[2026-04-23T06:41:00.7866717Z] starting scheduled BTCUSD paper run
+{
+  "atr": 129.2313636363648,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 78014.0429090909,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-23",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-23T06:41:04.284127+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [],
+  "open_orders": 0,
+  "order": null,
+  "price": 78246.73,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 78089.42446022728,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-23T06:41:04.284127+00:00"
+}
+[2026-04-23T06:41:04.3156068Z] finished exit_code=0
+[2026-04-23T06:51:00.8056307Z] starting scheduled BTCUSD paper run
+{
+  "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'paper-api.alpaca.markets'. (_ssl.c:1010)>",
+  "timestamp": "2026-04-23T06:51:01.081119+00:00"
+}
+[2026-04-23T06:51:01.1036935Z] finished exit_code=1
+[2026-04-23T07:01:00.7489071Z] starting scheduled BTCUSD paper run
+{
+  "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'paper-api.alpaca.markets'. (_ssl.c:1010)>",
+  "timestamp": "2026-04-23T07:01:00.982660+00:00"
+}
+[2026-04-23T07:01:01.0065478Z] finished exit_code=1
+[2026-04-23T07:11:04.4199260Z] starting scheduled BTCUSD paper run
+{
+  "atr": 131.90543238636482,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 78006.0207028409,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-23",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-23T07:11:08.293390+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [],
+  "open_orders": 0,
+  "order": null,
+  "price": 78232.5075,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 78089.42446022728,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-23T07:11:08.295867+00:00"
+}
+[2026-04-23T07:11:08.3932639Z] finished exit_code=0
+[2026-04-23T07:21:00.9784161Z] starting scheduled BTCUSD paper run
+{
+  "atr": 124.14104431818322,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 78029.31386704545,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-23",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-23T07:21:04.553277+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [],
+  "open_orders": 0,
+  "order": null,
+  "price": 78185.81,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 78089.42446022728,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-23T07:21:04.554287+00:00"
+}
+[2026-04-23T07:21:04.6064971Z] finished exit_code=0
+[2026-04-23T07:31:02.0151020Z] starting scheduled BTCUSD paper run
+{
+  "atr": 120.18136193181932,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 78041.19291420454,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-23",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-23T07:31:06.145464+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [],
+  "open_orders": 0,
+  "order": null,
+  "price": 78189.0540125,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 78089.42446022728,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-23T07:31:06.145464+00:00"
+}
+[2026-04-23T07:31:06.2211950Z] finished exit_code=0
+[2026-04-23T07:41:01.7183626Z] starting scheduled BTCUSD paper run
+{
+  "atr": 109.98129204545562,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 78071.79312386362,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-23",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-23T07:41:05.604646+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [],
+  "open_orders": 0,
+  "order": null,
+  "price": 78118.4955,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 78089.42446022728,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-23T07:41:05.608385+00:00"
+}
+[2026-04-23T07:41:05.7142642Z] finished exit_code=0
+[2026-04-23T07:51:01.5373875Z] starting scheduled BTCUSD paper run
+{
+  "atr": 113.11522329545618,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 78062.39133011362,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-23",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-23T07:51:05.292856+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [],
+  "open_orders": 0,
+  "order": null,
+  "price": 78123.65,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 78089.42446022728,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-23T07:51:05.293852+00:00"
+}
+[2026-04-23T07:51:05.3635099Z] finished exit_code=0
+[2026-04-23T08:01:01.4753402Z] starting scheduled BTCUSD paper run
+{
+  "error": "POST https://paper-api.alpaca.markets/v2/orders failed with HTTP 422: {\"code\":40010001,\"message\":\"qty must be \\u003e 0\"}",
+  "timestamp": "2026-04-23T08:01:06.317641+00:00"
+}
+[2026-04-23T08:01:06.3664894Z] finished exit_code=1
+[2026-04-23T08:11:01.4708787Z] starting scheduled BTCUSD paper run
+{
+  "error": "POST https://paper-api.alpaca.markets/v2/orders failed with HTTP 422: {\"code\":40010001,\"message\":\"qty must be \\u003e 0\"}",
+  "timestamp": "2026-04-23T08:11:06.013670+00:00"
+}
+[2026-04-23T08:11:06.0800537Z] finished exit_code=1
+[2026-04-23T08:21:01.6921228Z] starting scheduled BTCUSD paper run
+{
+  "atr": 113.4897471590924,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 78001.32529602273,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-23",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-23T08:21:05.436388+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [],
+  "open_orders": 0,
+  "order": null,
+  "price": 78149.86,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 78089.42446022728,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-23T08:21:05.437495+00:00"
+}
+[2026-04-23T08:21:05.5051972Z] finished exit_code=0
+[2026-04-23T08:31:01.6043722Z] starting scheduled BTCUSD paper run
+{
+  "error": "POST https://paper-api.alpaca.markets/v2/orders failed with HTTP 422: {\"code\":40010001,\"message\":\"qty must be \\u003e 0\"}",
+  "timestamp": "2026-04-23T08:31:06.191625+00:00"
+}
+[2026-04-23T08:31:06.2513778Z] finished exit_code=1
+[2026-04-23T08:41:01.4799685Z] starting scheduled BTCUSD paper run
+{
+  "error": "POST https://paper-api.alpaca.markets/v2/orders failed with HTTP 422: {\"code\":40010001,\"message\":\"qty must be \\u003e 0\"}",
+  "timestamp": "2026-04-23T08:41:06.145473+00:00"
+}
+[2026-04-23T08:41:06.2192284Z] finished exit_code=1
+[2026-04-23T08:51:00.7599576Z] starting scheduled BTCUSD paper run
+{
+  "error": "POST https://paper-api.alpaca.markets/v2/orders failed with HTTP 422: {\"code\":40010001,\"message\":\"qty must be \\u003e 0\"}",
+  "timestamp": "2026-04-23T08:51:04.887188+00:00"
+}
+[2026-04-23T08:51:04.9395601Z] finished exit_code=1
+[2026-04-23T09:01:01.5342352Z] starting scheduled BTCUSD paper run
+{
+  "error": "POST https://paper-api.alpaca.markets/v2/orders failed with HTTP 422: {\"code\":40010001,\"message\":\"qty must be \\u003e 0\"}",
+  "timestamp": "2026-04-23T09:01:06.068765+00:00"
+}
+[2026-04-23T09:01:06.1413990Z] finished exit_code=1
+[2026-04-24T01:11:02.1486829Z] starting scheduled BTCUSD paper run
+{
+  "error": "Need at least 24 bars, got 15",
+  "timestamp": "2026-04-24T01:11:06.645118+00:00"
+}
+[2026-04-24T01:11:06.7273355Z] finished exit_code=1
+[2026-04-24T01:21:01.0248585Z] starting scheduled BTCUSD paper run
+{
+  "error": "Need at least 24 bars, got 17",
+  "timestamp": "2026-04-24T01:21:04.877648+00:00"
+}
+[2026-04-24T01:21:04.9576321Z] finished exit_code=1
+[2026-04-24T01:31:01.3889562Z] starting scheduled BTCUSD paper run
+{
+  "error": "Need at least 24 bars, got 19",
+  "timestamp": "2026-04-24T01:31:05.722712+00:00"
+}
+[2026-04-24T01:31:05.7769676Z] finished exit_code=1
+[2026-04-24T01:41:04.8194031Z] starting scheduled BTCUSD paper run
+{
+  "error": "Need at least 24 bars, got 21",
+  "timestamp": "2026-04-24T01:41:16.946695+00:00"
+}
+[2026-04-24T01:41:17.0812456Z] finished exit_code=1
+[2026-04-24T01:51:01.4919905Z] starting scheduled BTCUSD paper run
+{
+  "error": "Need at least 24 bars, got 23",
+  "timestamp": "2026-04-24T01:51:04.960652+00:00"
+}
+[2026-04-24T01:51:05.0274274Z] finished exit_code=1
+[2026-04-24T02:01:01.3513010Z] starting scheduled BTCUSD paper run
+{
+  "atr": 124.06308977272552,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 78161.16073068183,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-24",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-24T02:01:04.868689+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [
+    "raised_stop_floor_to_78161.16"
+  ],
+  "open_orders": 0,
+  "order": null,
+  "price": 78466.2195,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 78161.16073068183,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-24T02:01:04.872260+00:00"
+}
+[2026-04-24T02:01:04.9578795Z] finished exit_code=0
+[2026-04-24T02:11:01.3139539Z] starting scheduled BTCUSD paper run
+{
+  "atr": 129.70856818181676,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 78212.57429545454,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-24",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-24T02:11:04.845592+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [
+    "raised_stop_floor_to_78212.57"
+  ],
+  "open_orders": 0,
+  "order": null,
+  "price": 78409.105,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 78212.57429545454,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-24T02:11:04.846615+00:00"
+}
+[2026-04-24T02:11:04.8916629Z] finished exit_code=0
+[2026-04-24T02:21:01.3468249Z] starting scheduled BTCUSD paper run
+{
+  "atr": 129.50840909090766,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 78213.17477272727,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-24",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-24T02:21:05.025696+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [
+    "raised_stop_floor_to_78213.17"
+  ],
+  "open_orders": 0,
+  "order": null,
+  "price": 78390.2185,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 78213.17477272727,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-24T02:21:05.026740+00:00"
+}
+[2026-04-24T02:21:05.0927098Z] finished exit_code=0
+[2026-04-24T02:31:01.4376475Z] starting scheduled BTCUSD paper run
+{
+  "atr": 127.8215681818163,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 78218.23529545455,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-24",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-24T02:31:04.962383+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [
+    "raised_stop_floor_to_78218.24"
+  ],
+  "open_orders": 0,
+  "order": null,
+  "price": 78310.67,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 78218.23529545455,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-24T02:31:04.963434+00:00"
+}
+[2026-04-24T02:31:05.0187787Z] finished exit_code=0
+[2026-04-24T02:41:01.9014600Z] starting scheduled BTCUSD paper run
+{
+  "atr": 125.37440909090748,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 78225.57677272728,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-24",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-24T02:41:05.981953+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [
+    "raised_stop_floor_to_78225.58"
+  ],
+  "open_orders": 0,
+  "order": null,
+  "price": 78354.32,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 78225.57677272728,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-24T02:41:05.985180+00:00"
+}
+[2026-04-24T02:41:06.0917404Z] finished exit_code=0
+[2026-04-24T02:51:01.8599003Z] starting scheduled BTCUSD paper run
+{
+  "atr": 122.26379545454455,
+  "avg_entry": 75159.11,
+  "cash": 99890.16,
+  "chandelier_stop": 78234.90861363636,
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-24",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-24T02:51:05.353568+00:00"
+  },
+  "decision": "hold",
+  "mode": "paper",
+  "no_trade": false,
+  "notes": [
+    "raised_stop_floor_to_78234.91"
+  ],
+  "open_orders": 0,
+  "order": null,
+  "price": 78399.24,
+  "qty": 1e-09,
+  "reason": "no_signal",
+  "report_written": false,
+  "stop_floor": 78234.90861363636,
+  "symbol": "BTC/USD",
+  "timestamp": "2026-04-24T02:51:05.354578+00:00"
+}
+[2026-04-24T02:51:05.4135688Z] finished exit_code=0
+[2026-04-24T03:01:01.4832047Z] starting scheduled BTCUSD paper run
+{
+  "error": "POST https://paper-api.alpaca.markets/v2/orders failed with HTTP 422: {\"code\":40010001,\"message\":\"qty must be \\u003e 0\"}",
+  "timestamp": "2026-04-24T03:01:05.805043+00:00"
+}
+[2026-04-24T03:01:05.8845509Z] finished exit_code=1
+[2026-04-25T06:31:00.9820316Z] starting scheduled BTCUSD paper run
+{
+  "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'paper-api.alpaca.markets'. (_ssl.c:1010)>",
+  "timestamp": "2026-04-25T06:31:03.013546+00:00"
+}
+[2026-04-25T06:31:03.0870933Z] finished exit_code=1
+[2026-04-25T06:41:02.4633859Z] starting scheduled BTCUSD paper run
+{
+  "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'paper-api.alpaca.markets'. (_ssl.c:1010)>",
+  "timestamp": "2026-04-25T06:41:04.624308+00:00"
+}
+[2026-04-25T06:41:04.7135688Z] finished exit_code=1
+[2026-04-25T06:51:01.3111029Z] starting scheduled BTCUSD paper run
+{
+  "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'paper-api.alpaca.markets'. (_ssl.c:1010)>",
+  "timestamp": "2026-04-25T06:51:01.932133+00:00"
+}
+[2026-04-25T06:51:02.0026884Z] finished exit_code=1
+[2026-04-25T07:01:01.3205910Z] starting scheduled BTCUSD paper run
+{
+  "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'paper-api.alpaca.markets'. (_ssl.c:1010)>",
+  "timestamp": "2026-04-25T07:01:01.887682+00:00"
+}
+[2026-04-25T07:01:01.9553865Z] finished exit_code=1
+[2026-04-25T07:11:00.9231923Z] starting scheduled BTCUSD paper run
+{
+  "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'paper-api.alpaca.markets'. (_ssl.c:1010)>",
+  "timestamp": "2026-04-25T07:11:01.300660+00:00"
+}
+[2026-04-25T07:11:01.3518502Z] finished exit_code=1
+[2026-04-25T07:21:00.9713376Z] starting scheduled BTCUSD paper run
+{
+  "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'paper-api.alpaca.markets'. (_ssl.c:1010)>",
+  "timestamp": "2026-04-25T07:21:01.409526+00:00"
+}
+[2026-04-25T07:21:01.4490318Z] finished exit_code=1
+[2026-04-25T07:31:00.9308172Z] starting scheduled BTCUSD paper run
+{
+  "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'paper-api.alpaca.markets'. (_ssl.c:1010)>",
+  "timestamp": "2026-04-25T07:31:01.734947+00:00"
+}
+[2026-04-25T07:31:01.7975861Z] finished exit_code=1
+[2026-04-25T07:41:00.8796437Z] starting scheduled BTCUSD paper run
+{
+  "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'paper-api.alpaca.markets'. (_ssl.c:1010)>",
+  "timestamp": "2026-04-25T07:41:01.641658+00:00"
+}
+[2026-04-25T07:41:01.6915482Z] finished exit_code=1
+[2026-04-25T07:51:01.3650364Z] starting scheduled BTCUSD paper run
+{
+  "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'paper-api.alpaca.markets'. (_ssl.c:1010)>",
+  "timestamp": "2026-04-25T07:51:02.628914+00:00"
+}
+[2026-04-25T07:51:02.6811869Z] finished exit_code=1
+[2026-04-25T08:01:01.4241415Z] starting scheduled BTCUSD paper run
+{
+  "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'paper-api.alpaca.markets'. (_ssl.c:1010)>",
+  "timestamp": "2026-04-25T08:01:01.913284+00:00"
+}
+[2026-04-25T08:01:01.9660564Z] finished exit_code=1
+[2026-04-25T08:11:01.3472063Z] starting scheduled BTCUSD paper run
+{
+  "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'paper-api.alpaca.markets'. (_ssl.c:1010)>",
+  "timestamp": "2026-04-25T08:11:02.360680+00:00"
+}
+[2026-04-25T08:11:02.4034399Z] finished exit_code=1
+[2026-04-25T08:21:01.2873903Z] starting scheduled BTCUSD paper run
+{
+  "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'paper-api.alpaca.markets'. (_ssl.c:1010)>",
+  "timestamp": "2026-04-25T08:21:02.005280+00:00"
+}
+[2026-04-25T08:21:02.0365148Z] finished exit_code=1
+[2026-04-25T08:31:01.4259773Z] starting scheduled BTCUSD paper run
+{
+  "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'paper-api.alpaca.markets'. (_ssl.c:1010)>",
+  "timestamp": "2026-04-25T08:31:01.864403+00:00"
+}
+[2026-04-25T08:31:01.8963451Z] finished exit_code=1
+[2026-04-25T08:41:01.3653663Z] starting scheduled BTCUSD paper run
+{
+  "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'paper-api.alpaca.markets'. (_ssl.c:1010)>",
+  "timestamp": "2026-04-25T08:41:01.747501+00:00"
+}
+[2026-04-25T08:41:01.7793540Z] finished exit_code=1
+[2026-04-25T08:51:00.7836950Z] starting scheduled BTCUSD paper run
+{
+  "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'paper-api.alpaca.markets'. (_ssl.c:1010)>",
+  "timestamp": "2026-04-25T08:51:00.947802+00:00"
+}
+[2026-04-25T08:51:00.9655304Z] finished exit_code=1
+[2026-04-25T09:01:01.3940255Z] starting scheduled BTCUSD paper run
+{
+  "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'paper-api.alpaca.markets'. (_ssl.c:1010)>",
+  "timestamp": "2026-04-25T09:01:01.772605+00:00"
+}
+[2026-04-25T09:01:01.8057878Z] finished exit_code=1
+[2026-04-25T09:11:01.4502897Z] starting scheduled BTCUSD paper run
+{
+  "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'paper-api.alpaca.markets'. (_ssl.c:1010)>",
+  "timestamp": "2026-04-25T09:11:02.904166+00:00"
+}
+[2026-04-25T09:11:02.9675841Z] finished exit_code=1
+[2026-04-25T09:21:02.6661317Z] starting scheduled BTCUSD paper run
+{
+  "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'paper-api.alpaca.markets'. (_ssl.c:1010)>",
+  "timestamp": "2026-04-25T09:21:03.864108+00:00"
+}
+[2026-04-25T09:21:03.9393014Z] finished exit_code=1
+[2026-04-25T09:31:01.5311953Z] starting scheduled BTCUSD paper run
+{
+  "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'paper-api.alpaca.markets'. (_ssl.c:1010)>",
+  "timestamp": "2026-04-25T09:31:02.058790+00:00"
+}
+[2026-04-25T09:31:02.0950370Z] finished exit_code=1
+[2026-04-25T09:41:00.8829866Z] starting scheduled BTCUSD paper run
+{
+  "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'paper-api.alpaca.markets'. (_ssl.c:1010)>",
+  "timestamp": "2026-04-25T09:41:01.059908+00:00"
+}
+[2026-04-25T09:41:01.0798329Z] finished exit_code=1
+[2026-04-25T09:51:00.8159129Z] starting scheduled BTCUSD paper run
+{
+  "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'paper-api.alpaca.markets'. (_ssl.c:1010)>",
+  "timestamp": "2026-04-25T09:51:01.027728+00:00"
+}
+[2026-04-25T09:51:01.0511061Z] finished exit_code=1
+[2026-04-25T10:01:00.7494842Z] starting scheduled BTCUSD paper run
+{
+  "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'paper-api.alpaca.markets'. (_ssl.c:1010)>",
+  "timestamp": "2026-04-25T10:01:02.008860+00:00"
+}
+[2026-04-25T10:01:02.0290986Z] finished exit_code=1
+[2026-04-25T10:11:00.8350313Z] starting scheduled BTCUSD paper run
+{
+  "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'paper-api.alpaca.markets'. (_ssl.c:1010)>",
+  "timestamp": "2026-04-25T10:11:01.087506+00:00"
+}
+[2026-04-25T10:11:01.1106776Z] finished exit_code=1
+[2026-04-25T10:21:00.7645653Z] starting scheduled BTCUSD paper run
+{
+  "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'paper-api.alpaca.markets'. (_ssl.c:1010)>",
+  "timestamp": "2026-04-25T10:21:00.977681+00:00"
+}
+[2026-04-25T10:21:00.9986244Z] finished exit_code=1
+[2026-04-25T10:31:00.7754669Z] starting scheduled BTCUSD paper run
+{
+  "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'paper-api.alpaca.markets'. (_ssl.c:1010)>",
+  "timestamp": "2026-04-25T10:31:00.977618+00:00"
+}
+[2026-04-25T10:31:00.9992562Z] finished exit_code=1
+[2026-04-25T10:41:00.7678849Z] starting scheduled BTCUSD paper run
+{
+  "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'paper-api.alpaca.markets'. (_ssl.c:1010)>",
+  "timestamp": "2026-04-25T10:41:00.951777+00:00"
+}
+[2026-04-25T10:41:00.9710783Z] finished exit_code=1
+[2026-04-25T10:51:00.7785620Z] starting scheduled BTCUSD paper run
+{
+  "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'paper-api.alpaca.markets'. (_ssl.c:1010)>",
+  "timestamp": "2026-04-25T10:51:00.947764+00:00"
+}
+[2026-04-25T10:51:00.9679704Z] finished exit_code=1
+[2026-04-25T11:01:01.3676989Z] starting scheduled BTCUSD paper run
+{
+  "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'paper-api.alpaca.markets'. (_ssl.c:1010)>",
+  "timestamp": "2026-04-25T11:01:02.047456+00:00"
+}
+[2026-04-25T11:01:02.0815768Z] finished exit_code=1
+[2026-04-25T11:11:00.7712738Z] starting scheduled BTCUSD paper run
+{
+  "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'paper-api.alpaca.markets'. (_ssl.c:1010)>",
+  "timestamp": "2026-04-25T11:11:00.954301+00:00"
+}
+[2026-04-25T11:11:00.9731895Z] finished exit_code=1
+[2026-04-25T11:21:00.8448367Z] starting scheduled BTCUSD paper run
+{
+  "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'paper-api.alpaca.markets'. (_ssl.c:1010)>",
+  "timestamp": "2026-04-25T11:21:01.026855+00:00"
+}
+[2026-04-25T11:21:01.0473343Z] finished exit_code=1
+[2026-04-25T11:31:00.7761186Z] starting scheduled BTCUSD paper run
+{
+  "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'paper-api.alpaca.markets'. (_ssl.c:1010)>",
+  "timestamp": "2026-04-25T11:31:02.004881+00:00"
+}
+[2026-04-25T11:31:02.0255023Z] finished exit_code=1
+[2026-04-25T11:41:00.8939126Z] starting scheduled BTCUSD paper run
+{
+  "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'paper-api.alpaca.markets'. (_ssl.c:1010)>",
+  "timestamp": "2026-04-25T11:41:01.113725+00:00"
+}
+[2026-04-25T11:41:01.1349013Z] finished exit_code=1
+[2026-04-25T12:52:16.1185869Z] starting scheduled BTCUSD paper run
+{
+  "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'paper-api.alpaca.markets'. (_ssl.c:1010)>",
+  "timestamp": "2026-04-25T12:52:16.590074+00:00"
+}
+[2026-04-25T12:52:16.6120055Z] finished exit_code=1
+[2026-04-25T13:01:00.7618350Z] starting scheduled BTCUSD paper run
+{
+  "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'paper-api.alpaca.markets'. (_ssl.c:1010)>",
+  "timestamp": "2026-04-25T13:01:03.988623+00:00"
+}
+[2026-04-25T13:01:04.0348728Z] finished exit_code=1
+[2026-04-25T13:11:00.7471474Z] starting scheduled BTCUSD paper run
+{
+  "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'paper-api.alpaca.markets'. (_ssl.c:1010)>",
+  "timestamp": "2026-04-25T13:11:03.980984+00:00"
+}
+[2026-04-25T13:11:04.0310731Z] finished exit_code=1
+[2026-04-25T13:58:49.1523561Z] starting scheduled BTCUSD paper run
+{
+  "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'paper-api.alpaca.markets'. (_ssl.c:1010)>",
+  "timestamp": "2026-04-25T13:58:49.854554+00:00"
+}
+[2026-04-25T13:58:49.9293472Z] finished exit_code=1
+[2026-04-25T14:12:57.7608002Z] starting scheduled BTCUSD paper run
+{
+  "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'paper-api.alpaca.markets'. (_ssl.c:1010)>",
+  "timestamp": "2026-04-25T14:13:00.200806+00:00"
+}
+[2026-04-25T14:13:00.2561079Z] finished exit_code=1
+[2026-04-25T14:21:01.9712006Z] starting scheduled BTCUSD paper run
+{
+  "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'paper-api.alpaca.markets'. (_ssl.c:1010)>",
+  "timestamp": "2026-04-25T14:21:03.913963+00:00"
+}
+[2026-04-25T14:21:03.9733011Z] finished exit_code=1
+[2026-04-25T14:31:02.0870501Z] starting scheduled BTCUSD paper run
+{
+  "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'paper-api.alpaca.markets'. (_ssl.c:1010)>",
+  "timestamp": "2026-04-25T14:31:02.958151+00:00"
+}
+[2026-04-25T14:31:03.0130672Z] finished exit_code=1
+[2026-04-25T14:41:00.9090932Z] starting scheduled BTCUSD paper run
+{
+  "error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+  "timestamp": "2026-04-25T14:41:26.305803+00:00"
+}
+[2026-04-25T14:41:26.3746669Z] finished exit_code=1
+[2026-04-25T14:51:00.9044098Z] starting scheduled BTCUSD paper run
+{
+  "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'paper-api.alpaca.markets'. (_ssl.c:1010)>",
+  "timestamp": "2026-04-25T14:51:01.203959+00:00"
+}
+[2026-04-25T14:51:01.2356374Z] finished exit_code=1
+[2026-04-25T15:01:48.1349543Z] starting scheduled BTCUSD paper run
+{
+  "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'paper-api.alpaca.markets'. (_ssl.c:1010)>",
+  "timestamp": "2026-04-25T15:01:48.354947+00:00"
+}
+[2026-04-25T15:01:48.3776015Z] finished exit_code=1
+[2026-04-25T15:11:00.7538009Z] starting scheduled BTCUSD paper run
+{
+  "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'paper-api.alpaca.markets'. (_ssl.c:1010)>",
+  "timestamp": "2026-04-25T15:11:00.962299+00:00"
+}
+[2026-04-25T15:11:00.9825023Z] finished exit_code=1
+[2026-04-25T15:21:01.3431028Z] starting scheduled BTCUSD paper run
+{
+  "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'paper-api.alpaca.markets'. (_ssl.c:1010)>",
+  "timestamp": "2026-04-25T15:21:01.807454+00:00"
+}
+[2026-04-25T15:21:01.8382530Z] finished exit_code=1
+[2026-04-25T15:31:01.3644623Z] starting scheduled BTCUSD paper run
+{
+  "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'paper-api.alpaca.markets'. (_ssl.c:1010)>",
+  "timestamp": "2026-04-25T15:31:01.782440+00:00"
+}
+[2026-04-25T15:31:01.8262744Z] finished exit_code=1
+[2026-04-25T15:41:01.6575262Z] starting scheduled BTCUSD paper run
+{
+  "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'paper-api.alpaca.markets'. (_ssl.c:1010)>",
+  "timestamp": "2026-04-25T15:41:02.112271+00:00"
+}
+[2026-04-25T15:41:02.1667762Z] finished exit_code=1
+[2026-04-25T15:51:01.6880451Z] starting scheduled BTCUSD paper run
+{
+  "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'paper-api.alpaca.markets'. (_ssl.c:1010)>",
+  "timestamp": "2026-04-25T15:51:02.113253+00:00"
+}
+[2026-04-25T15:51:02.1424035Z] finished exit_code=1
+[2026-04-25T16:01:01.4064831Z] starting scheduled BTCUSD paper run
+{
+  "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'paper-api.alpaca.markets'. (_ssl.c:1010)>",
+  "timestamp": "2026-04-25T16:01:01.850452+00:00"
+}
+[2026-04-25T16:01:01.8831311Z] finished exit_code=1
+[2026-04-25T16:11:00.8229660Z] starting scheduled BTCUSD paper run
+{
+  "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'paper-api.alpaca.markets'. (_ssl.c:1010)>",
+  "timestamp": "2026-04-25T16:11:01.040067+00:00"
+}
+[2026-04-25T16:11:01.0649875Z] finished exit_code=1
+[2026-04-25T16:21:00.7571154Z] starting scheduled BTCUSD paper run
+{
+  "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'paper-api.alpaca.markets'. (_ssl.c:1010)>",
+  "timestamp": "2026-04-25T16:21:01.002158+00:00"
+}
+[2026-04-25T16:21:01.0372437Z] finished exit_code=1
+[2026-04-25T16:31:00.7425323Z] starting scheduled BTCUSD paper run
+{
+  "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'paper-api.alpaca.markets'. (_ssl.c:1010)>",
+  "timestamp": "2026-04-25T16:31:00.980327+00:00"
+}
+[2026-04-25T16:31:01.0038633Z] finished exit_code=1
+[2026-04-25T16:41:00.7832763Z] starting scheduled BTCUSD paper run
+{
+  "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'paper-api.alpaca.markets'. (_ssl.c:1010)>",
+  "timestamp": "2026-04-25T16:41:00.969668+00:00"
+}
+[2026-04-25T16:41:00.9984191Z] finished exit_code=1
+[2026-04-25T16:51:00.7670883Z] starting scheduled BTCUSD paper run
+{
+  "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'paper-api.alpaca.markets'. (_ssl.c:1010)>",
+  "timestamp": "2026-04-25T16:51:00.956382+00:00"
+}
+[2026-04-25T16:51:00.9769117Z] finished exit_code=1
+[2026-04-25T17:01:00.7552194Z] starting scheduled BTCUSD paper run
+{
+  "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'paper-api.alpaca.markets'. (_ssl.c:1010)>",
+  "timestamp": "2026-04-25T17:01:00.954491+00:00"
+}
+[2026-04-25T17:01:00.9768700Z] finished exit_code=1
+[2026-04-25T17:41:40.7086916Z] starting scheduled BTCUSD paper run
+{
+  "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'paper-api.alpaca.markets'. (_ssl.c:1010)>",
+  "timestamp": "2026-04-25T17:41:41.382450+00:00"
+}
+[2026-04-25T17:41:41.4563417Z] finished exit_code=1
+[2026-04-25T20:06:01.8492163Z] starting scheduled BTCUSD paper run
+{
+  "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+  "timestamp": "2026-04-25T20:06:02.493650+00:00"
+}
+[2026-04-25T20:06:02.5721375Z] finished exit_code=1
+[2026-04-26T05:20:35.1047178Z] starting scheduled BTCUSD paper run
+{
+  "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'paper-api.alpaca.markets'. (_ssl.c:1010)>",
+  "timestamp": "2026-04-26T05:20:36.379465+00:00"
+}
+[2026-04-26T05:20:36.4127090Z] finished exit_code=1
+[2026-04-26T05:21:02.2155580Z] starting scheduled BTCUSD paper run
+{
+  "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'paper-api.alpaca.markets'. (_ssl.c:1010)>",
+  "timestamp": "2026-04-26T05:21:02.564531+00:00"
+}
+[2026-04-26T05:21:02.5931607Z] finished exit_code=1
+[2026-04-26T05:31:02.0946415Z] starting scheduled BTCUSD paper run
+{
+  "error": "POST https://paper-api.alpaca.markets/v2/orders failed with HTTP 422: {\"code\":40010001,\"message\":\"qty must be \\u003e 0\"}",
+  "timestamp": "2026-04-26T05:31:05.987222+00:00"
+}
+[2026-04-26T05:31:06.0846947Z] finished exit_code=1
+[2026-04-26T05:41:02.5326716Z] starting scheduled BTCUSD paper run
+{
+  "error": "POST https://paper-api.alpaca.markets/v2/orders failed with HTTP 422: {\"code\":40010001,\"message\":\"qty must be \\u003e 0\"}",
+  "timestamp": "2026-04-26T05:41:07.243353+00:00"
+}
+[2026-04-26T05:41:07.3209760Z] finished exit_code=1
+[2026-04-26T05:51:01.3821086Z] starting scheduled BTCUSD paper run
+{
+  "error": "POST https://paper-api.alpaca.markets/v2/orders failed with HTTP 422: {\"code\":40010001,\"message\":\"qty must be \\u003e 0\"}",
+  "timestamp": "2026-04-26T05:51:05.290680+00:00"
+}
+[2026-04-26T05:51:05.3729018Z] finished exit_code=1
+[2026-04-26T06:03:18.9062512Z] starting scheduled BTCUSD paper run
+{
+  "error": "POST https://paper-api.alpaca.markets/v2/orders failed with HTTP 422: {\"code\":40010001,\"message\":\"qty must be \\u003e 0\"}",
+  "timestamp": "2026-04-26T06:03:22.045010+00:00"
+}
+[2026-04-26T06:03:22.0717096Z] finished exit_code=1
+[2026-04-26T06:11:00.7671452Z] starting scheduled BTCUSD paper run
+{
+  "error": "POST https://paper-api.alpaca.markets/v2/orders failed with HTTP 422: {\"code\":40010001,\"message\":\"qty must be \\u003e 0\"}",
+  "timestamp": "2026-04-26T06:11:02.998350+00:00"
+}
+[2026-04-26T06:11:03.0211837Z] finished exit_code=1
+[2026-04-26T06:21:01.2637403Z] starting scheduled BTCUSD paper run
+{
+  "error": "POST https://paper-api.alpaca.markets/v2/orders failed with HTTP 422: {\"code\":40010001,\"message\":\"qty must be \\u003e 0\"}",
+  "timestamp": "2026-04-26T06:21:04.910580+00:00"
+}
+[2026-04-26T06:21:04.9835138Z] finished exit_code=1
+[2026-04-26T06:31:00.7914517Z] starting scheduled BTCUSD paper run
+{
+  "error": "POST https://paper-api.alpaca.markets/v2/orders failed with HTTP 422: {\"code\":40010001,\"message\":\"qty must be \\u003e 0\"}",
+  "timestamp": "2026-04-26T06:31:03.404536+00:00"
+}
+[2026-04-26T06:31:03.4419821Z] finished exit_code=1
+[2026-04-26T06:41:00.9956872Z] starting scheduled BTCUSD paper run
+{
+  "error": "POST https://paper-api.alpaca.markets/v2/orders failed with HTTP 422: {\"code\":40010001,\"message\":\"qty must be \\u003e 0\"}",
+  "timestamp": "2026-04-26T06:41:03.711615+00:00"
+}
+[2026-04-26T06:41:03.7616212Z] finished exit_code=1
+[2026-04-26T06:51:00.9911350Z] starting scheduled BTCUSD paper run
+{
+  "error": "POST https://paper-api.alpaca.markets/v2/orders failed with HTTP 422: {\"code\":40010001,\"message\":\"qty must be \\u003e 0\"}",
+  "timestamp": "2026-04-26T06:51:03.243288+00:00"
+}
+[2026-04-26T06:51:03.2692620Z] finished exit_code=1
+[2026-04-26T07:01:00.9527576Z] starting scheduled BTCUSD paper run
+{
+  "error": "POST https://paper-api.alpaca.markets/v2/orders failed with HTTP 422: {\"code\":40010001,\"message\":\"qty must be \\u003e 0\"}",
+  "timestamp": "2026-04-26T07:01:04.438106+00:00"
+}
+[2026-04-26T07:01:04.5077967Z] finished exit_code=1
+[2026-04-26T07:11:00.9594754Z] starting scheduled BTCUSD paper run
+{
+  "error": "POST https://paper-api.alpaca.markets/v2/orders failed with HTTP 422: {\"code\":40010001,\"message\":\"qty must be \\u003e 0\"}",
+  "timestamp": "2026-04-26T07:11:06.484415+00:00"
+}
+[2026-04-26T07:11:06.5445964Z] finished exit_code=1
+[2026-04-26T07:21:01.5452224Z] starting scheduled BTCUSD paper run
+{
+  "error": "POST https://paper-api.alpaca.markets/v2/orders failed with HTTP 422: {\"code\":40010001,\"message\":\"qty must be \\u003e 0\"}",
+  "timestamp": "2026-04-26T07:21:05.369915+00:00"
+}
+[2026-04-26T07:21:05.4364885Z] finished exit_code=1
+[2026-04-26T07:31:01.1926823Z] starting scheduled BTCUSD paper run
+{
+  "error": "POST https://paper-api.alpaca.markets/v2/orders failed with HTTP 422: {\"code\":40010001,\"message\":\"qty must be \\u003e 0\"}",
+  "timestamp": "2026-04-26T07:31:03.607936+00:00"
+}
+[2026-04-26T07:31:03.6532644Z] finished exit_code=1
+[2026-04-26T07:41:00.7974189Z] starting scheduled BTCUSD paper run
+{
+  "error": "POST https://paper-api.alpaca.markets/v2/orders failed with HTTP 422: {\"code\":40010001,\"message\":\"qty must be \\u003e 0\"}",
+  "timestamp": "2026-04-26T07:41:02.991021+00:00"
+}
+[2026-04-26T07:41:03.0166822Z] finished exit_code=1
+[2026-04-26T07:51:01.2225991Z] starting scheduled BTCUSD paper run
+{
+  "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'paper-api.alpaca.markets'. (_ssl.c:1010)>",
+  "timestamp": "2026-04-26T07:51:01.585876+00:00"
+}
+[2026-04-26T07:51:01.6215910Z] finished exit_code=1
+[2026-04-26T08:01:00.7740300Z] starting scheduled BTCUSD paper run
+{
+  "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'paper-api.alpaca.markets'. (_ssl.c:1010)>",
+  "timestamp": "2026-04-26T08:01:01.394788+00:00"
+}
+[2026-04-26T08:01:01.4209399Z] finished exit_code=1
+[2026-04-26T08:11:00.7553724Z] starting scheduled BTCUSD paper run
+{
+  "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'paper-api.alpaca.markets'. (_ssl.c:1010)>",
+  "timestamp": "2026-04-26T08:11:00.966233+00:00"
+}
+[2026-04-26T08:11:00.9889194Z] finished exit_code=1
+[2026-04-26T08:21:01.4299184Z] starting scheduled BTCUSD paper run
+{
+  "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'paper-api.alpaca.markets'. (_ssl.c:1010)>",
+  "timestamp": "2026-04-26T08:21:01.841298+00:00"
+}
+[2026-04-26T08:21:01.8752545Z] finished exit_code=1
+[2026-04-26T08:31:00.7684973Z] starting scheduled BTCUSD paper run
+{
+  "error": "POST https://paper-api.alpaca.markets/v2/orders failed with HTTP 422: {\"code\":40010001,\"message\":\"qty must be \\u003e 0\"}",
+  "timestamp": "2026-04-26T08:31:03.123179+00:00"
+}
+[2026-04-26T08:31:03.1488673Z] finished exit_code=1
+[2026-04-26T08:41:00.7392062Z] starting scheduled BTCUSD paper run
+{
+  "error": "POST https://paper-api.alpaca.markets/v2/orders failed with HTTP 422: {\"code\":40010001,\"message\":\"qty must be \\u003e 0\"}",
+  "timestamp": "2026-04-26T08:41:02.883099+00:00"
+}
+[2026-04-26T08:41:02.9053426Z] finished exit_code=1
+[2026-04-26T08:51:01.7811712Z] starting scheduled BTCUSD paper run
+{
+  "error": "POST https://paper-api.alpaca.markets/v2/orders failed with HTTP 422: {\"code\":40010001,\"message\":\"qty must be \\u003e 0\"}",
+  "timestamp": "2026-04-26T08:51:06.271747+00:00"
+}
+[2026-04-26T08:51:06.3507841Z] finished exit_code=1
+[2026-04-26T09:01:01.3939053Z] starting scheduled BTCUSD paper run
+{
+  "error": "POST https://paper-api.alpaca.markets/v2/orders failed with HTTP 422: {\"code\":40010001,\"message\":\"qty must be \\u003e 0\"}",
+  "timestamp": "2026-04-26T09:01:07.345004+00:00"
+}
+[2026-04-26T09:01:07.4168635Z] finished exit_code=1
+[2026-04-26T09:11:01.3356345Z] starting scheduled BTCUSD paper run
+{
+  "error": "POST https://paper-api.alpaca.markets/v2/orders failed with HTTP 422: {\"code\":40010001,\"message\":\"qty must be \\u003e 0\"}",
+  "timestamp": "2026-04-26T09:11:04.205081+00:00"
+}
+[2026-04-26T09:11:04.2761090Z] finished exit_code=1
+[2026-04-26T09:21:01.4798092Z] starting scheduled BTCUSD paper run
+{
+  "error": "POST https://paper-api.alpaca.markets/v2/orders failed with HTTP 422: {\"code\":40010001,\"message\":\"qty must be \\u003e 0\"}",
+  "timestamp": "2026-04-26T09:21:04.651796+00:00"
+}
+[2026-04-26T09:21:04.7344884Z] finished exit_code=1
+[2026-04-26T09:31:01.4797537Z] starting scheduled BTCUSD paper run
+{
+  "error": "POST https://paper-api.alpaca.markets/v2/orders failed with HTTP 422: {\"code\":40010001,\"message\":\"qty must be \\u003e 0\"}",
+  "timestamp": "2026-04-26T09:31:05.347956+00:00"
+}
+[2026-04-26T09:31:05.4271558Z] finished exit_code=1
+[2026-04-26T09:41:01.4222555Z] starting scheduled BTCUSD paper run
+{
+  "error": "POST https://paper-api.alpaca.markets/v2/orders failed with HTTP 422: {\"code\":40010001,\"message\":\"qty must be \\u003e 0\"}",
+  "timestamp": "2026-04-26T09:41:06.327988+00:00"
+}
+[2026-04-26T09:41:06.4019690Z] finished exit_code=1
+[2026-04-26T09:51:01.4325196Z] starting scheduled BTCUSD paper run
+{
+  "error": "POST https://paper-api.alpaca.markets/v2/orders failed with HTTP 422: {\"code\":40010001,\"message\":\"qty must be \\u003e 0\"}",
+  "timestamp": "2026-04-26T09:51:04.697797+00:00"
+}
+[2026-04-26T09:51:04.7897620Z] finished exit_code=1
+[2026-04-26T10:01:01.4532948Z] starting scheduled BTCUSD paper run
+{
+  "error": "POST https://paper-api.alpaca.markets/v2/orders failed with HTTP 422: {\"code\":40010001,\"message\":\"qty must be \\u003e 0\"}",
+  "timestamp": "2026-04-26T10:01:04.445484+00:00"
+}
+[2026-04-26T10:01:04.5379019Z] finished exit_code=1

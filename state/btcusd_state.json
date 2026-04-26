@@ -1,0 +1,19 @@
+{
+  "daily_risk": {
+    "current_cash": 99890.16,
+    "current_equity": 99890.16,
+    "current_loss": 0.0,
+    "date": "2026-04-24",
+    "halted": false,
+    "max_loss": 49945.08,
+    "start_cash": 99890.16,
+    "start_equity": 99890.16,
+    "updated_at": "2026-04-24T02:51:05.353568+00:00"
+  },
+  "dip_buys": [],
+  "last_order_id": "68d62d0e-78bb-4b01-bdac-6203e4add937",
+  "last_report_at": "2026-04-23T06:01:05.166760+00:00",
+  "position_basis": 75159.11,
+  "started_at": "2026-04-19T16:29:32.678737+00:00",
+  "stop_floor": 78234.90861363636
+}
